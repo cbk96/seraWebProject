@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="org.sera.mappers.adminOrders">
+
+	
+	<select id="getOrderListDefault" parameterType="Map"  resultType="org.goods.domain.OrderVO">
+		select  distinct order_number,  user_id, name, order_status, member_order, sell_price, all_price, order_date, cancel_date, customer_req, reguest_date from tbl_orders
+		group by order_number
+		order by order_date desc, customer_req desc
+		limit #{page_cnt}, #{PAGE_MAX_AD_ORDERS_CNT}
+	</select>
+	
+	<select id="getOrderListDefaultCnt" parameterType="Map"  resultType="int">
+		select count(distinct order_number) from tbl_orders
+	</select>
+	
+	
+	<select id="getOrderListSearch" parameterType="Map" resultType="org.goods.domain.OrderVO">
+		select  distinct order_number,  user_id, name, order_status, member_order, sell_price, all_price, order_date, cancel_date, customer_req, reguest_date from tbl_orders
+		where ${searchKeyType} like concat("%",#{searchKeyValue}, "%") 
+		and sell_price between #{priceBegin} and #{priceEnd} 
+		and ${dateRangeSelect} between #{dayBegin} and DATE_ADD(#{dayEnd}, interval 1 day)
+		<if test="!order_status.equals('all')">
+			and order_status = #{order_status}
+		</if>
+		group by order_number
+		order by order_date desc
+		limit #{page_cnt}, #{PAGE_MAX_AD_ORDERS_CNT}
+	</select>
+	
+	<select id="getOrderListSearchCnt" parameterType="Map" resultType="int">
+		select count(distinct order_number) from tbl_orders
+		where ${searchKeyType} like concat("%",#{searchKeyValue}, "%") 
+		and sell_price between #{priceBegin} and #{priceEnd} 
+		and ${dateRangeSelect} between #{dayBegin} and DATE_ADD(#{dayEnd}, interval 1 day)
+		<if test="!order_status.equals('all')">
+			and order_status = #{order_status}
+		</if>
+		order by order_date desc
+	</select>
+	
+	<select id="getMaxSellPrice" resultType="int">
+		select MAX(sell_price) from tbl_orders
+	</select>
+	
+	<select id="getOrderListByOrderNumber" resultType="org.goods.domain.OrderVO">
+		select order_number,  user_id, name, order_status, member_order, sell_price, payment, order_date, cancel_date, goods_id , goods_name, category_id , goods_image, sell_price, all_price, discount_price , quantity, shipping_fee, post_code, address, customer_req, reguest_date  from tbl_orders 
+		where order_number = #{order_number}
+	</select>
+	
+	<update id="customerInfoModify" parameterType="org.goods.domain.OrderVO">
+		update tbl_orders set
+		name = #{name},
+		post_code = #{post_code},
+		address =  #{address}
+		where order_number = #{order_number}
+	</update>
+	
+	<update id="shipInfoModify" parameterType="org.goods.domain.OrderVO">
+		update tbl_orders set
+		order_status =  #{order_status}
+		where goods_id = #{goods_id} and order_number = #{order_number}
+	</update>
+	
+	<update id="orderRequest" parameterType="Map">
+		update tbl_orders set
+		order_status =  #{requestType}
+		where goods_id = #{goods_id} and order_number = #{order_number}
+	</update>
+	
+	<delete id="deductionMileage" parameterType="Map">
+		delete from tbl_mileage
+		where order_number = #{order_number}
+	</delete>
+	
+	<delete id="restoreMileage" >
+		delete from tbl_mileage
+		where order_number = #{order_number} and  <![CDATA[accumulate_price < 0]]> 
+	</delete>
+	
+</mapper>

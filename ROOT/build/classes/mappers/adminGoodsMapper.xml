@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.sera.mappers.adminGoods">
+
+	
+	<select id="getGoodsListDefault" parameterType="Map"  resultType="org.goods.domain.GoodsVO">
+		select goods.*, cate.main_type, cate.sub_type from tbl_goods goods, tbl_category cate
+		where goods.category_id = cate.category_id
+		<if test="!depart.equals('all')">
+			 and cate.depart = #{depart}
+		</if>
+		<choose>
+			<when test="saleActive.equals('for_sale')">
+				and goods.sale_active != 'd'
+			</when>
+			<when test="saleActive.equals('goods_delete')">
+				and goods.sale_active = 'd'
+			</when>
+		</choose>	
+		order by goods.goods_reg_date desc
+		limit #{page_cnt}, #{PAGE_MAX_AD_GOODS_CNT}
+	</select>
+	
+	<select id="getGoodsListDefaultCnt" parameterType="Map"  resultType="int">
+		select count(goods.goods_id)
+		from tbl_goods goods, tbl_category cate
+		where goods.category_id = cate.category_id
+		<if test="!depart.equals('all')">
+			 and cate.depart = #{depart}
+		</if>
+		<choose>
+			<when test="saleActive.equals('for_sale')">
+				and goods.sale_active != 'd'
+			</when>
+			<when test="saleActive.equals('goods_delete')">
+				and goods.sale_active = 'd'
+			</when>
+		</choose>	
+	</select>
+	
+	<select id="getGoodsListSearch" parameterType="Map" resultType="org.goods.domain.GoodsVO">
+		select goods.*, cate.main_type, cate.sub_type from tbl_goods goods, tbl_category cate
+		where goods.${searchKeyType} like concat("%",#{searchKeyValue}, "%") 
+		and goods.category_id = cate.category_id
+		<choose>
+			<when test="inputCateId.equals('not_choose')">
+				<if test="!depart.equals('all')">
+					 and cate.depart = #{depart}
+				</if>
+			</when>
+			<otherwise>
+				<if test="!inputMainType.equals('allType')">
+					and cate.main_type = #{inputMainType} 
+				</if>
+				<if test="!inputCateId.equals('allType')">
+					and goods.category_id = #{inputCateId} 
+				</if>
+			</otherwise>
+		</choose>
+		<choose>
+			<when test="saleActive.equals('for_sale')">
+				and sale_active != 'd'
+			</when>
+			<when test="saleActive.equals('goods_delete')">
+				and sale_active = 'd'
+			</when>
+		</choose>
+		and goods.${priceRagneSelect} between #{priceBegin} and #{priceEnd} 
+		and goods.${dateRangeSelect} between #{dayBegin} and DATE_ADD(#{dayEnd}, interval 1 day)
+		order by goods.${turnSelect} ${listSort}
+		limit #{page_cnt}, #{PAGE_MAX_AD_GOODS_CNT}
+	</select>
+	
+	<select id="getGoodsListSearchCnt" parameterType="Map" resultType="int">
+		select count(goods.goods_id)
+		from tbl_goods goods, tbl_category cate
+		where goods.${searchKeyType} like concat("%",#{searchKeyValue}, "%") 
+		and goods.category_id = cate.category_id
+		<choose>
+			<when test="inputCateId.equals('not_choose')">
+				<if test="!depart.equals('all')">
+					 and cate.depart = #{depart}
+				</if>
+			</when>
+			<otherwise>
+				<if test="!inputMainType.equals('allType')">
+					and cate.main_type = #{inputMainType} 
+				</if>
+				<if test="!inputCateId.equals('allType')">
+					and goods.category_id = #{inputCateId} 
+				</if>
+			</otherwise>
+		</choose>
+		<choose>
+			<when test="saleActive.equals('for_sale')">
+				and sale_active != 'd'
+			</when>
+			<when test="saleActive.equals('goods_delete')">
+				and sale_active = 'd'
+			</when>
+		</choose>
+		and goods.${priceRagneSelect} between #{priceBegin} and #{priceEnd} 
+		and goods.${dateRangeSelect} between #{dayBegin} and DATE_ADD(#{dayEnd}, interval 1 day)
+	</select>
+	
+	<select id="getMaxprice"  parameterType="Map" resultType="String">
+		select max(${priceRagneSelect}) from tbl_goods
+	</select>
+	
+	<select id="getCategoryList" resultType="org.goods.domain.CategoryVO">
+		select * from tbl_category
+	</select>
+	
+	<select id="getCategoryToId" resultType="org.goods.domain.CategoryVO">
+		select category_id from tbl_category
+		where main_type = #{main_type} and sub_type = #{sub_type}
+	</select>
+	
+	<insert id="goodsInsert"  parameterType="org.goods.domain.GoodsVO">
+		insert into tbl_goods (goods_id, emp_id, goods_image, goods_name, goods_search_key, category_id, skin_type, purchase_price, sell_price, amount, shipping_fee, sale_active, goods_content, goods_reg_date, goods_up_date)
+		values(#{goods_id}, #{emp_id}, #{goods_image}, #{goods_name}, #{goods_search_key}, #{category_id}, #{skin_type}, #{purchase_price},  #{sell_price}, #{amount}, #{shipping_fee}, #{sale_active}, #{goods_content}, now(), now())
+	</insert>
+	
+	<select id="selectGoodsOne" resultType="org.goods.domain.GoodsVO">
+		select goods.*, cate.main_type, cate.sub_type from tbl_goods goods, tbl_category cate
+		where goods_id = #{goods_id} 
+		and goods.category_id = cate.category_id
+	</select>
+	
+	<update id="goodsModify" parameterType="org.goods.domain.GoodsVO">
+		update tbl_goods set
+		emp_id = #{emp_id},
+		goods_image = #{goods_image},
+		goods_name = #{goods_name},
+		goods_search_key = #{goods_search_key},
+		category_id = #{category_id},
+		skin_type = #{skin_type},
+		purchase_price = #{purchase_price},
+		sell_price = #{sell_price},
+		amount = #{amount},
+		shipping_fee = #{shipping_fee},
+		sale_active = #{sale_active},
+		goods_content = #{goods_content},
+		goods_up_date = now()
+		where goods_id = #{goods_id}
+	</update>
+	
+	<update id="goodsDelete" parameterType="org.goods.domain.GoodsVO">
+		update tbl_goods set
+		sale_active = 'd'
+		where goods_id = #{goods_id}
+	</update>
+	
+	<delete id="goodsHardDelete" parameterType="org.goods.domain.GoodsVO">
+		delete from tbl_goods
+		where goods_id = #{goods_id}
+	</delete>
+	
+	<update id="goodsRestore" parameterType="org.goods.domain.GoodsVO">
+		update tbl_goods set
+		sale_active = 'n'
+		where goods_id = #{goods_id}
+	</update>
+  
+</mapper>
+
