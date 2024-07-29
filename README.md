@@ -215,6 +215,7 @@
       <img src="https://github.com/user-attachments/assets/6e943083-f368-4b8a-a82e-b1c987c0fb0a" width="500px">
     </p>
   </div>
+  상품 목록 페이지중 검색폼의 모습입니다.<br>
   관리자 페이지에서 상품을 조건별로 검색하는 기능을 구현하기 위해 &lt;input type="text"&gt;, &lt;select&gt;, &lt;input type="radio"&gt; 태그를 사용하여 여러 검색 조건을 입력받는 입력폼을 구현했습니다.
   <br>
   입력받은 값은 SELECT 쿼리문으로 DB에서 상품 목록을 검색할 때의 조건으로 사용됩니다.
