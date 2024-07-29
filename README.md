@@ -208,13 +208,27 @@
 
 <details>
   <summary><strong>관리자 페이지 상품 검색</strong></summary>
-  
-  div>
-    ${\textsf{\color{LightGray}}}$
+
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsList.jsp 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/6e943083-f368-4b8a-a82e-b1c987c0fb0a" width="500px">![image](https://github.com/user-attachments/assets/53a1322d-d44b-41d3-aeb1-58c2efb9a68b)
+    </p>
+  </div>
+  관리자 페이지에서 select 쿼리문을 통한 상품 검색 기능을 구현하기 위해 검색 조건을 입력하는 입력폼을 구성했습니다.
+  <br>
+  입력폼으로 입력 받은 값은 form태그를 통해 Controller로 전달했습니다.
+  <br><br>
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/java/org/admin/controller/AdminGoodsController.java 중}}$
     <p>
       <img src="https://github.com/user-attachments/assets/f53ebaff-d52a-4409-81de-b274304b84fd" width="500px">
     </p>
   </div>
+  view에서 전달받은 검색 조건 값은 Map 변수 searchKey 에 담아 mapper.xml로 전달하여 데이터베이스에 존재하는 상품 중 검색 조건에 맞는 상품 목록들을 조회하게 했습니다.
+  <br>
+  조회된 상품 정보들은 GoodsVO형 배열 변수에 저장되어 다시 상품 목록 페이지로 전달됩니다.
+
 
 </details>
 
