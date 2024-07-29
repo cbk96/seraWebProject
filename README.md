@@ -122,7 +122,7 @@
 온라인 쇼핑몰 프로젝트인 만큼 여러 기능 가운데 가장 신경써서 구현한 기능은 관리자의 상품 등록을 시작으로 고객의 구매까지 이어지는 상품 관리 기능입니다.
 
 <details>
-  <summary><strong>관리자 페이지 상품 등록</strong></summary>
+  <summary><strong>관리자 페이지 - 상품 등록</strong></summary>
   <br>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsRegist.jsp 중}}$
@@ -207,7 +207,7 @@
 </details>
 
 <details>
-  <summary><strong>관리자 페이지 상품 검색</strong></summary>
+  <summary><strong>관리자 페이지 - 상품 검색</strong></summary>
   <br>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsList.jsp 중}}$
