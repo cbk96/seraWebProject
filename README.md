@@ -215,7 +215,12 @@
       <img src="https://github.com/user-attachments/assets/6e943083-f368-4b8a-a82e-b1c987c0fb0a" width="500px">
     </p>
   </div>
-  관리자 페이지에서 상품을 조건별로 검색하는 기능을 구현하기 위해 여러 조건을 입력받는 입력폼을 구현했습니다.
+  관리자 페이지에서 상품을 조건별로 검색하는 기능을 구현하기 위해 <input type="text">, <select>, <input type="radio"> 태그를 사용하여 여러 조건을 입력받는 입력폼을 구현했습니다.
+  <br>
+  입력받은 값은 SELECT 쿼리문으로 DB에서 상품 목록을 검색할 때의 조건으로 사용됩니다.
+  <br>
+  <select> 태그로 받은 값은 SELECT 쿼리문에서 WHERE 절의 컬럼명으로 사용되며 
+  
   <br><br>
   
   <div>
@@ -224,7 +229,6 @@
       <img src="https://github.com/user-attachments/assets/f53ebaff-d52a-4409-81de-b274304b84fd" width="500px">
     </p>
   </div>
-  view(goodsList.jsp)에서 전달받은 검색 조건 값은 Map 변수 searchKey 에 담아 mapper.xml로 전달하여 DB에 존재하는 상품 중 검색 조건에 맞는 상품 목록들을 조회하게 했습니다.
   <br>
   조회된 상품 정보들은 GoodsVO 클래스형 배열 변수에 저장되어 다시 상품 목록 페이지로 전달됩니다.
   <br><br>
