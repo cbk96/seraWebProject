@@ -64,6 +64,9 @@
 </details>
 
 #### 6. 주문 및 결제 
+<details>
+  <summary>자세히</summary>
+  
   - 주문 등록
   - 비회원 주문
   - 결제 처리
