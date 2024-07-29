@@ -389,8 +389,8 @@
   입력한 가격 범위(매입가/판매가), 일자 범위(등록일/수정일)를 조건으로 상품을 검색합니다.
   <br><br>
   ${priceRangeSelect} : 등록/수정일 항목의 &lt;select&gt; 태그에서 선택한 값<br>
-  #{priceBeign} : 판매 항목의 첫번째 number 입력폼에 입력한 값<br>
-  #{priceEnd} : 판매 항목의 두번째 number 입력폼에 입력한 값
+  #{priceBeign} : 판매 항목의 첫번째 &lt;input type="number"&gt; 입력폼에 입력한 값<br>
+  #{priceEnd} : 판매 항목의 두번째 &lt;input type="number"&gt; 입력폼에 입력한 값
   <br><br>
   ${dateRangeSelect} : 등록/수정일 항목의 &lt;select&gt; 태그에서 선택한 값<br>
   #{dateBeign} : 등록/수정일 항목의 첫번째 &lt;input type="date"&gt; 입력폼에 입력한 값<br>
