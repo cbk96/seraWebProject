@@ -278,7 +278,7 @@
   카테고리의 대분류명, 중분류명 값은 카테고리 테이블에 저장되어 있습니다.</strong>
   <br><br>
 
-  <h4>- 관리자 권한</h4>
+  <h4>- 관리자 권한에 따라 선택 가능한 카테고리 항목</h4>
   <div>
     ${\textsf{\color{LightGray}최고 권한의 관리자로 로그인한 경우}}$
       <p><img src="https://github.com/user-attachments/assets/c7b89105-3614-413e-8def-9327f805c5e4" width="500px"></p>
@@ -299,7 +299,7 @@
   카테고리 항목에서 &lt;select&gt; 태그 내의 선택값은 JSTL Core의 if 태그를 사용하여 관리자의 부서에 해당되는 카테고리만 표기 되도록 구현했습니다.
   <br><br>
 
-  <h4>- 분류별 상품 검색</h4>
+  <h4>- 관리자 권한에 따라 검색되는 상품 필터링</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/adminGoodsMapper.xml 중}}$
     <p>
@@ -322,7 +322,7 @@
   <br><br>
   최고 관리자의 경우 부서에 상관없이 모든 상품의 조회가 가능하므로 이 조건을 무시합니다.
   (최고 관리자의 경우 depart로 all 값이 전달되어 이 경우 And cate.depart = #{depart} 쿼리문을 실행하지 않습니다.)
-
+  <br><br>
 
   
   <h4>- 검색된 상품 정보 전달</h4>
