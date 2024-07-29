@@ -95,7 +95,7 @@
 </details>
 
 <details>
-  <summary<strong>>3. 상품 관리</summary></summary>
+  <summary><strong>3. 상품 관리</strong></summary>
   
   - 카테고리 목록 조회
   - 상품 등록
