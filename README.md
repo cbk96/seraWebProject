@@ -212,7 +212,7 @@
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsList.jsp 중}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/6e943083-f368-4b8a-a82e-b1c987c0fb0a" width="500px">![image](https://github.com/user-attachments/assets/53a1322d-d44b-41d3-aeb1-58c2efb9a68b)
+      <img src="https://github.com/user-attachments/assets/6e943083-f368-4b8a-a82e-b1c987c0fb0a" width="500px">
     </p>
   </div>
   관리자 페이지에서 select 쿼리문을 통한 상품 검색 기능을 구현하기 위해 검색 조건을 입력하는 입력폼을 구성했습니다.
