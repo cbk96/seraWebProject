@@ -399,6 +399,25 @@
   ${turnSelect} : 정렬기준 항목의 &lt;input type="radio"&gt; 태그 중 선택한 값<br>
   ${listSort} : 내림자순, 오름차순 중 선택한 값
   <br><br>
+
+  <h4>- 목록 페이지의 페이지 번호에 따른 검색 상품수 범위 설정</h4>
+  <div>
+    ${\textsf{\color{LightGray}}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsList.jsp 중}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/ed6176a6-69f8-46e0-97c1-d3b43019d189" width="1000px">
+    </p>
+  </div>
+  limit 술어를 사용하여 상품 목록 페이지의 페이징 번호에 따라 검색할 상품의 범위를 설정합니다.
+  
+  #{pageCnt} : 제한된 조회 범위 중 시작 순번
+  #{PAGE_MAX_AD_GOODS_CNT} : 한 페이지에 표시할 최대 상품 개수 = 10
+  
+  예로 페이지 번호가 3이면 
+  pageCnt = (3-1) * 10 = 20
+  조회된 상품 중 21번째 상품부터 10개의 상품을 persistence로 전달
+  *limit의 범위는 0번부터 순번을 새기 시작하므로 20은 21번째 상품을 의미
+  <br><br>
+
   
   <h4>- 검색된 상품 정보 전달</h4>
   <div>
