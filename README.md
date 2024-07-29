@@ -404,7 +404,7 @@
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsList.jsp 중}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/ed6176a6-69f8-46e0-97c1-d3b43019d189" width="1000px">
+      <img src="https://github.com/user-attachments/assets/3931472e-20e9-4207-8b5d-031af311e8bd" width="1000px">
     </p>
   </div>
   LIMIT 술어를 사용하여 상품 목록 페이지의 페이징 번호에 따라 검색할 상품의 범위를 설정합니다.
@@ -417,6 +417,7 @@
   조회된 상품 중 21번째 상품부터 10개의 상품을 정보를 반환합니다<br>
   <strong>*LIMIT의 범위는 0번부터 순번을 새기 시작하므로 20은 21번째 상품을 의미</strong>
   <br><br>
+  
 
   
   <h4>- 검색된 상품 정보 전달</h4>
