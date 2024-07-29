@@ -390,11 +390,11 @@
   <br><br>
   ${priceRangeSelect} : 등록/수정일 항목의 &lt;select&gt; 태그에서 선택한 값<br>
   #{priceBeign} : 판매 항목의 첫번째 number 입력폼에 입력한 값<br>
-  #{priceEnd} : 판매 항목의 두번째 number 입력폼에 입력한 값<br>
+  #{priceEnd} : 판매 항목의 두번째 number 입력폼에 입력한 값
   <br><br>
   ${dateRangeSelect} : 등록/수정일 항목의 &lt;select&gt; 태그에서 선택한 값<br>
   #{dateBeign} : 등록/수정일 항목의 첫번째 &lt;input type="date"&gt; 입력폼에 입력한 값<br>
-  #{dateEnd} : 등록/수정일 항목의 두번째 &lt;input type="number"&gt; 입력폼에 입력한 값
+  #{dateEnd} : 등록/수정일 항목의 두번째 &lt;input type="date"&gt; 입력폼에 입력한 값
   <br><br>
   ${turnSelect} : 정렬기준 항목의 &lt;input type="radio"&gt; 태그 중 선택한 값<br>
   ${listSort} : 내림자순, 오름차순 중 선택한 값
