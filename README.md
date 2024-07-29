@@ -220,8 +220,8 @@
   입력받은 값은 SELECT 쿼리문으로 DB에서 상품 목록을 검색할 때의 조건으로 사용됩니다.
   <br><br>
   &lt;input type="text"&gt; 태그로 입력받은 값들은 상품명, 상품 가격과 같이 관리자가 자유롭게 입력할 수 있는 키워드로 SELECT 쿼리문에서 WHERE 절의 비교 조건값으로 사용됩니다.<br>
-  &lt;select&gt; 태그로 받은 값은 SELECT 쿼리문에서 WHERE 절의 컬럼명으로 사용됩니다.<br>
-  &lt;input type="radio"&gt; 태그로 입력받은 값은 <br>
+  &lt;select&gt; 태그로 받은 값은 등록일/수정일, 판매가/매입가와 같은 검색 유형을 선택하는 값으로 SELECT 쿼리문에서 WHERE 절의 컬럼명으로 사용됩니다.<br>
+  &lt;input type="radio"&gt; 태그로 입력받은 값은 검색 조건을 선택하는 값으로 SELECT 쿼리문에서 WHERE 절의 컬럼명으로 사용됩니다.<br>
   <br><br>
   
   <div>
@@ -246,8 +246,8 @@
       <img src="https://github.com/user-attachments/assets/3be0b76b-572c-4527-aafe-781fe9fd11cd" width="500px">
     </p>
   </div>
-  상품 테이블에 저장된 category_id와 카테고리 테이블에 저장된 동명의 컬럼을 비교하여 상품의 카테고리 정보를 가져오기 위해 
-  tbl_goods(상품) 테이블과 tbl_category(카테고리) 테이블을 조인하여 검색합니다.
+  상품 정보중 대분류, 중분류와 같은 상품의 카테고리 값은 유효한 값만을 저장하게 하도록 DB에서 tbl_goods(상품) 테이블과 tbl_category(카테고리) 테이블간에 FOREIGN KEY 제약 조건을 걸어두었습니다.<br>
+  그렇기에 SELECT 쿼리문에서 카테고리 값을 검색 조건으로 사용할 경우 상품 테이블과 카테고리 테이블을 조인하여 검색합니다.
   
   <strong>*상품 테이블에는 카테고리 번호만 저장되어 있고
   카테고리의 대분류명, 중분류명 값은 카테고리 테이블에만 저장되어 있습니다.</strong>
