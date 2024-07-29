@@ -47,7 +47,6 @@
 <details>
   <summary><strong>4. 상품 목록</strong></summary>
 
-
   - 상품 목록 및 검색
   - 상품 상세 페이지
   - 상품 조회수 표시
