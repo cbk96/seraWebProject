@@ -128,7 +128,8 @@
     </p>
   </div>
 
-  일련의 상품 정보들을 input과 select 태그로 입력 받아 form 태그로 Controller로 전달합니다.
+  상품 등록 페이지의 모습입니다.
+  상품 관리에 필요한 일련의 정보들을 Controller를 통해 DB로 전달하기 위한 입력폼을 구성했습니다.
   
   <br>
   <div>
