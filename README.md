@@ -277,7 +277,7 @@
   <br><br>
   분류 항목에서 &lt;input type="text"&gt; 태그로 입력 받은 값은 searchKeyVaue 파라미터로 전달되어 SELECT 쿼리문에서 WHERE 절의 조건값으로 사용됩니다.<br>
   LIKE 술어로 조회하기에 선택한 분류(컬럼)에서 입력한 문자열 값과 일부 일치하는 상품들이 검색됩니다.
-  <br><br>
+  <br><br><br>
   
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/adminGoodsMapper.xml 중}}$
@@ -285,6 +285,17 @@
       <img src="https://github.com/user-attachments/assets/ed6acf6c-42ad-44ae-8b73-58c71a1bf876" width="500px">
     </p>
   </div>
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsList.jsp 중}}$
+      <p><img src="https://github.com/user-attachments/assets/c7b89105-3614-413e-8def-9327f805c5e4" width="500px"></p>
+      <p><img src="https://github.com/user-attachments/assets/ee09b64d-19e1-4b50-81b7-47854a5ef3af" width="500px"></p>
+      <p><img src="https://github.com/user-attachments/assets/c794de13-d08e-4bc0-9c4a-0ba427ca7a5d" width="500px"></p>
+      <p><img src="https://github.com/user-attachments/assets/7d08eee4-8fdd-4308-9a36-a0e4bf082123" width="500px"></p>
+  </div>
+
+  카테고리 항목에서 &lt;select&gt; 태그 내의 선택값은 JSTL Core의 if 태그를 사용하여 관리자의 부서에 해당되는 카테고리만 표기 되도록 구현했습니다.
+  <br><br><br>
+  
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsList.jsp 중}}$
     <p>
@@ -296,15 +307,6 @@
   SELECT 쿼리문으로 상품 조회시 두 테이블의 depart 컬럼의 값을 비교하여 일치하는 경우에만 상품이 검색되는 형태로 구현했습니다.
   <br><br>
   
-  <div>
-    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsList.jsp 중}}$
-      <p><img src="https://github.com/user-attachments/assets/c7b89105-3614-413e-8def-9327f805c5e4" width="500px"></p>
-      <p><img src="https://github.com/user-attachments/assets/ee09b64d-19e1-4b50-81b7-47854a5ef3af" width="500px"></p>
-      <p><img src="https://github.com/user-attachments/assets/c794de13-d08e-4bc0-9c4a-0ba427ca7a5d" width="500px"></p>
-      <p><img src="https://github.com/user-attachments/assets/7d08eee4-8fdd-4308-9a36-a0e4bf082123" width="500px"></p>
-  </div>
-
-  카테고리 항목에서 &lt;select&gt; 태그 내의 선택값은 JSTL Core의 if 태그를 사용하여 관리자의 부서에 해당되는 카테고리만 표기 되도록 구현했습니다.<br>
   카테고리 항목에서 &lt;select&gt; 태그로 입력받은 값(카테고리 대분류, 소분류)은 inputCateId 파라미터로 전달됩니다. "전체"를 선택한 경우 “not_choose” 문자열 값이 전달됩니다.
   depart 파리미터로는 로그인중인 관리자의 부서명 정보가 전달되며 inputCateId로 전달 받은 값이 "not_choose"인 경우 전달받은 depart 파라미터의 값으로 관리자의 부서 정보와 일치하는 상품을 검색합니다.
   <br><br>
