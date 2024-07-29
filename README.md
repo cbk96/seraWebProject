@@ -147,7 +147,7 @@
   <br/> <br/> 
   판매가를 포함한 number 타입 input 태그의 입력 값이 min 속성보다 작은 경우 
   입력된 값을 min값으로 변경되도록 구현하는 코드를 추가로 작성했습니다.
-  <u></u>
+  <u>-------</u>
   <br><br>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsRegist.jsp 중}}$
