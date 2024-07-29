@@ -369,8 +369,35 @@
   </div>
   판매 상태별로 상품을 검색하기 위해 판매 상태 정보를 담은 값을 saleActive 파라미터로 전달합니다.
   <br><br>
-  <strong>상품 목록 페이지</strong>에서 검색하는 경우saleActive의 값이 <strong>for_sale</strong>로 전달되며<br>
+  <strong>상품 목록 페이지</strong>에서 검색하는 경우 saleActive의 값이 <strong>for_sale</strong>로 전달되며<br>
   <strong>삭제 상품 목록 페이지</strong>에서 검색 하는 경우 saleActive 값이 <strong>goods_delete</strong>로 전달됩니다.
+  <br><br>
+
+   <h4>- 가격, 등록 일자별 상품 검색</h4>
+   <div>
+    ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/adminGoodsMapper.xml 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/71a29991-acfd-4f7b-bfda-d8de57286912" width="500px">
+    </p>
+  </div>
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsList.jsp 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/3acef6de-03ec-4a37-a29e-5f2410eae129" width="500px">
+    </p>
+  </div>
+  입력한 가격 범위(매입가/판매가), 일자 범위(등록일/수정일)를 조건으로 상품을 검색합니다.
+  <br><br>
+  ${priceRangeSelect} : 등록/수정일 항목의 select 태그에서 선택한 값
+  #{priceBeign} : 판매 항목의 첫번째 Number 입력폼에 입력한 값
+  #{priceEnd} : 판매 항목의 두번째 Number 입력폼에 입력한 값
+  <br><br>
+  ${dateRangeSelect} : 등록/수정일 항목의 select 태그에서 선택한 값
+  #{dateBeign} : 등록/수정일 항목의 첫번째 Date 입력폼에 입력한 값
+  #{dateEnd} : 등록/수정일 항목의 두번째 Date 입력폼에 입력한 값
+  <br><br>
+  ${turnSelect} : 정렬기준 항목의 radio 태그 중 선택한 값
+  ${listSort} : 내림자순, 오름차순 중 선택한 값
   <br><br>
   
   <h4>- 검색된 상품 정보 전달</h4>
