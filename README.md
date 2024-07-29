@@ -274,17 +274,11 @@
   <strong>일련번호</strong> -> goods_id : tbl_goods(상품) 테이블에서 상품의 일련번호를 저장한 컬럼<br>
   <strong>상품 검색키워드</strong> -> goods_search_key : tbl_goods(상품) 테이블에서 검색 키워드를 저장한 값으로 고객이 상품을 검색할 때 입력할만한, 상품과 관련성이 높은 키워드를 저장하여 검색 노출도를 올리기 위해 사용하는 컬럼입니다.<br> 
   <strong>등록자</strong> -> emp_id : tbl_goods(상품) 테이블에서 상품을 등록한 관리자의 계정 id를 저장한 값이며 유효한 값만을 저장하기 위해 tbl_emp(관리자) 테이블의 PRIMARY KEY를 참조한 컬럼입니다.<br>
-  <br><br>
+  <br>
   분류 항목에서 &lt;input type="text"&gt; 태그로 입력 받은 값은 searchKeyVaue 파라미터로 전달되어 SELECT 쿼리문에서 WHERE 절의 조건값으로 사용됩니다.<br>
   LIKE 술어로 조회하기에 선택한 분류(컬럼)에서 입력한 문자열 값과 일부 일치하는 상품들이 검색됩니다.
   <br><br><br>
   
-  <div>
-    ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/adminGoodsMapper.xml 중}}$
-    <p>
-      <img src="https://github.com/user-attachments/assets/ed6acf6c-42ad-44ae-8b73-58c71a1bf876" width="500px">
-    </p>
-  </div>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsList.jsp 중}}$
       <p><img src="https://github.com/user-attachments/assets/c7b89105-3614-413e-8def-9327f805c5e4" width="500px"></p>
@@ -295,7 +289,12 @@
 
   카테고리 항목에서 &lt;select&gt; 태그 내의 선택값은 JSTL Core의 if 태그를 사용하여 관리자의 부서에 해당되는 카테고리만 표기 되도록 구현했습니다.
   <br><br><br>
-  
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/adminGoodsMapper.xml 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/ed6acf6c-42ad-44ae-8b73-58c71a1bf876" width="500px">
+    </p>
+  </div>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsList.jsp 중}}$
     <p>
