@@ -17,8 +17,7 @@
 ### 고객용 페이지
 
 #### 1. 회원 계정 관리 
-<details>
-  <summary>자세히</summary>
+<details> <summary>자세히</summary>
   
   - 회원가입
   - 로그인/로그아웃
