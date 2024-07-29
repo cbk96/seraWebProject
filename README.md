@@ -218,7 +218,7 @@
   관리자 페이지에서 상품을 조건별로 검색하는 기능을 구현하기 위해 &lt;input type="text"&gt;, &lt;select&gt;, &lt;input type="radio"&gt; 태그를 사용하여 여러 조건을 입력받는 입력폼을 구현했습니다.
   <br>
   입력받은 값은 SELECT 쿼리문으로 DB에서 상품 목록을 검색할 때의 조건으로 사용됩니다.
-  <br>
+  <br><br>
   &lt;input type="text"&gt; 태그로 입력받은 값들은 상품명, 상품 가격과 같이 관리자가 자유롭게 입력할 수 있는 키워드로 SELECT 쿼리문에서 WHERE 절의 비교 조건값으로 사용됩니다.
   &lt;select&gt; 태그로 받은 값은 SELECT 쿼리문에서 WHERE 절의 컬럼명으로 사용됩니다.
   &lt;input type="radio"&gt; 태그로 입력받은 값은 
