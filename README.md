@@ -367,7 +367,7 @@
       <img src="https://github.com/user-attachments/assets/377ff229-01ab-4db0-9368-6173dc30d864" width="500px">
     </p>
   </div>
-  상품의 판매 상태별로 상품을 검색하기 위해 판매 상태 정보를 담은 값을 saleActive 파라미터로 전달합니다.
+  판매 상태별로 상품을 검색하기 위해 판매 상태 정보를 담은 값을 saleActive 파라미터로 전달합니다.
   <br><br>
   <strong>상품 목록 페이지</strong>에서 검색하는 경우saleActive의 값이 <strong>for_sale</strong>로 전달되며<br>
   <strong>삭제 상품 목록 페이지</strong>에서 검색 하는 경우 saleActive 값이 <strong>goods_delete</strong>로 전달됩니다.
