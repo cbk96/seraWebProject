@@ -224,11 +224,11 @@
     </p>
   </div>
   상품 목록 페이지중 검색폼의 모습입니다.<br>
-  관리자 페이지에서 상품을 조건별로 검색하는 기능을 구현하기 위해 &lt;input type="text"&gt;, &lt;select&gt;, &lt;input type="radio"&gt; 태그를 사용하여 여러 검색 조건을 입력받는 입력폼을 구현했습니다.
+  관리자 페이지에서 상품을 조건별로 검색하는 기능을 구현하기 위해 &lt;input type="text"&gt;, &lt;input type="Date"&gt;, &lt;input type="Number"&gt;, &lt;select&gt;, &lt;input type="radio"&gt; 태그를 사용하여 여러 검색 조건을 입력받는 입력폼을 구현했습니다.
   <br>
   입력받은 값은 SELECT 쿼리문으로 DB에서 상품 목록을 검색할 때의 조건으로 사용됩니다.
   <br><br>
-  <strong>&lt;input type="text"&gt;</strong> 태그로 입력받은 값들은 상품명, 상품 가격과 같이 관리자가 자유롭게 입력할 수 있는 키워드로 SELECT 쿼리문에서 WHERE 절의 비교 조건값으로 사용됩니다.<br>
+  <strong>&lt;input type="text"&gt;, &lt;input type="Date"&gt;, &lt;input type="Number"&gt;</strong> 태그로 입력받은 값들은 상품명, 상품 가격과 같이 관리자가 자유롭게 입력할 수 있는 키워드로 SELECT 쿼리문에서 WHERE 절의 비교 조건값으로 사용됩니다.<br>
   <strong>&lt;select&gt;</strong> 태그로 받은 값은 등록일/수정일, 판매가/매입가와 같은 검색 유형을 선택하는 값으로 SELECT 쿼리문에서 WHERE 절의 컬럼명으로 사용됩니다.<br>
   <strong>&lt;input type="radio"&gt;</strong> 태그로는 검색 조건을 선택적으로 입력 받으며 입력 받은 값은 SELECT 쿼리문에서 WHERE 절의 비교 조건값으로 사용됩니다.<br>
   <br><br>
@@ -388,15 +388,15 @@
   </div>
   입력한 가격 범위(매입가/판매가), 일자 범위(등록일/수정일)를 조건으로 상품을 검색합니다.
   <br><br>
-  ${priceRangeSelect} : 등록/수정일 항목의 select 태그에서 선택한 값
-  #{priceBeign} : 판매 항목의 첫번째 Number 입력폼에 입력한 값
-  #{priceEnd} : 판매 항목의 두번째 Number 입력폼에 입력한 값
+  ${priceRangeSelect} : 등록/수정일 항목의 &lt;select&gt; 태그에서 선택한 값<br>
+  #{priceBeign} : 판매 항목의 첫번째 Number 입력폼에 입력한 값<br>
+  #{priceEnd} : 판매 항목의 두번째 Number 입력폼에 입력한 값<br>
   <br><br>
-  ${dateRangeSelect} : 등록/수정일 항목의 select 태그에서 선택한 값
-  #{dateBeign} : 등록/수정일 항목의 첫번째 Date 입력폼에 입력한 값
-  #{dateEnd} : 등록/수정일 항목의 두번째 Date 입력폼에 입력한 값
+  ${dateRangeSelect} : 등록/수정일 항목의 &lt;select&gt; 태그에서 선택한 값<br>
+  #{dateBeign} : 등록/수정일 항목의 첫번째 &lt;input type="Date"&gt; 입력폼에 입력한 값<br>
+  #{dateEnd} : 등록/수정일 항목의 두번째 &lt;input type="Number"&gt; 입력폼에 입력한 값
   <br><br>
-  ${turnSelect} : 정렬기준 항목의 radio 태그 중 선택한 값
+  ${turnSelect} : 정렬기준 항목의 &lt;input type="radio"&gt; 태그 중 선택한 값<br>
   ${listSort} : 내림자순, 오름차순 중 선택한 값
   <br><br>
   
