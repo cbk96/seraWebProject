@@ -177,7 +177,10 @@
       <img src="https://github.com/user-attachments/assets/0033ca15-709f-4321-8b41-6ec181bf3803" width="400px">
     </p>
   </div>
-  
+  상품 섬네일 이미지 등록은 미리보기 처리를 위해 페이지 전체 갱신 없이 ajax로 처리했습니다. 
+  <br>
+  이때 AdminGoodsController.java에서 전달된 등록일자 + 로그인한 관리자 id + 현재 상품 이미지 폴더내 파일 수 조합의 된 문자열 값을 이미지 파일이 업로드 될 폴더명으로 생성하기 위해 ajax url 요청으로 문자열 값을 itemName 파라미터로 전달했습니다.
+
   
 </details>
 
