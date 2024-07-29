@@ -122,12 +122,12 @@
 
   <div>
     <span><img src="https://github.com/user-attachments/assets/71dd79c7-5493-497a-98bc-2f3045065359" width="500px"></span>
-    ${\textsf{\color{#d3c9cc}#d3c9cc}}$ /sera/src/main/webapp/WEB-INF/views/admin/goods/goodsRegist.jsp 중
+    ${\textsf{\color{gray}gray}}$ /sera/src/main/webapp/WEB-INF/views/admin/goods/goodsRegist.jsp 중
   </div>
   
   <div style="display:inline">
     <span><img src="https://github.com/user-attachments/assets/12711609-83e0-41a7-ae78-3338bd505bcc" width="500px"></span>
-    ${\textsf{\color{green}Green}}$ /sera/src/main/webapp/WEB-INF/views/admin/goods/goodsRegist.jsp 중
+    ${\textsf{\color{gray}gray}}$ /sera/src/main/webapp/WEB-INF/views/admin/goods/goodsRegist.jsp 중
   </div>
   
 
