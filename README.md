@@ -1,4 +1,4 @@
-# <u>Sera Online Shopping Mall</u>
+![image](https://github.com/user-attachments/assets/5d716e25-6ed8-4415-9ddf-667eb3bfe817)# <u>Sera Online Shopping Mall</u>
 스프링 프레임워크와 MariaDB로 구현한 뷰티 상품 온라인 쇼핑몰 프로젝트입니다.
 <br><br>
 
@@ -352,6 +352,26 @@
   이 경우 카테고리명을 조건으로 한 비교 쿼리문을 실행하지 않고 모든 상품을 검색합니다.
   <br><br>
   <strong>* 카테고리 select 항목의 ”전체” 옵션은 최고 관리자에게만 노출됩니다.</strong>
+  <br><br>
+
+  <h4>- 판매 상태별 상품 검색</h4>
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/adminGoodsMapper.xml 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/a4244871-4e13-470f-9f26-300cdf94ce7b" width="500px">
+    </p>
+  </div>
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsList.jsp 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/377ff229-01ab-4db0-9368-6173dc30d864" width="500px">
+    </p>
+  </div>
+  상품의 판매 상태별로 상품을 검색합니다<br>
+  판매 상태는 saleActive 파라 미터로 전달됩니다.
+  <br>
+  상품 목록 페이지에서 검색하는 경우saleActive의 값이 for_sale로 전달되며<br>
+  삭제 상품 목록 페이지에서 검색 하는 경우 saleActive 값이 goods_delete로 전달됩니다.
   <br><br>
   
   <h4>- 검색된 상품 정보 전달</h4>
