@@ -282,7 +282,7 @@
       <img src="https://github.com/user-attachments/assets/3be0b76b-572c-4527-aafe-781fe9fd11cd" width="500px">
     </p>
   </div>
-  상품 정보중 대분류, 중분류의 카테고리 값은 유효한 값만을 저장하게 하도록 DB에서 tbl_goods(상품) 테이블과 tbl_category(카테고리) 테이블간에 FOREIGN KEY 제약 조건을 걸어두었습니다.<br>
+  상품 정보중 대분류, 중분류의 카테고리 값은 유효한 값만을 저장하게 하기 위해 DB에서 tbl_goods(상품) 테이블과 tbl_category(카테고리) 테이블간에 FOREIGN KEY 제약 조건을 걸어두었습니다.<br>
   따라서 SELECT 쿼리문에서 카테고리 값을 검색 조건으로 사용할 경우 상품 테이블과 카테고리 테이블을 조인하여 검색합니다.
   <br>
   <strong>*상품 테이블에는 카테고리 관련 정보중 카테고리 번호만 저장되어 있고
