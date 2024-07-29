@@ -27,8 +27,8 @@
 <details>
   <summary><strong>2. 메인 페이지</strong></summary>
   
-  - 베스트셀러 상품 노출
-  - 피부 타입별 추천 상품 노출
+  - 베스트셀러 상품 출력
+  - 피부 타입별 추천 상품 출력
 </details>
 
 <details>
@@ -69,7 +69,7 @@
 </details>
 
 
-
+<br>
 ### ⚙️ 관리자용 페이지
 
 <details>
