@@ -404,7 +404,13 @@
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsList.jsp 중}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/3931472e-20e9-4207-8b5d-031af311e8bd" width="1000px">
+      <img src="https://github.com/user-attachments/assets/48414fa3-2026-46af-bd69-5a30c827f8cf" width="500px">
+    </p>
+  </div>
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/adminGoodsMapper.xml}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/b7c825a3-2fe7-4480-b934-d25bddd80da4" width="500px">
     </p>
   </div>
   LIMIT 술어를 사용하여 상품 목록 페이지의 페이징 번호에 따라 검색할 상품의 범위를 설정합니다.
