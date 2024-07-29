@@ -239,6 +239,7 @@
       <img src="https://github.com/user-attachments/assets/03314e2e-a35b-4bd7-9555-ed62c56c79dd" width="500px">
     </p>
   </div>
+  
   <div>
     ${\textsf{\color{LightGray}상품 테이블과 카테고리 테이블의 foreign key 제약 관계}}$
     <p>
@@ -250,6 +251,31 @@
   <br>
   <strong>*상품 테이블에는 카테고리 관련 정보중 카테고리 번호만 저장되어 있고
   카테고리의 대분류명, 중분류명 값은 카테고리 테이블에 저장되어 있습니다.</strong>
+  <br><br>
+
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/adminGoodsMapper.xml 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/a8076a80-95ab-4689-b09e-84f9cf78453f" width="500px">
+    </p>
+  </div>
+
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsList.jsp 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/6cf0681f-ba96-49b8-b805-faec0a2c3752" width="500px">
+    </p>
+  </div>
+  ${searchkey}에 입력폼의 분류 항목 select 태그에서 선택한 값(컬럼명)이 전달되기에 검색폼의 분류 선택에 따른 상품 검색의 구현이 가능해집니다.<br>
+  상품명 :  goods_name<br>
+  일련번호 : goods_id<br>
+  상품 검색키워드 : goods_search_key<br> 
+  등록자 : emp_id<br>
+  <br><br>
+  ${searchKeyVaue}으로 분류 항목의 text 입력폼에 입력한 텍스트 값이 전달됩니다.<br>
+  LIKE 술어로 조회하기에 선택한 분류(컬럼)에서 입력한 문자열 값과 일부 일치하는 상품들이 검색됩니다.
+  <br><br>
+
 
 
 </details>
