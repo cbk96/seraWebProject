@@ -83,7 +83,7 @@
 </details>
 
 <details>
-  <summary></summary>2. 회원 관리</details></summary>
+  <summary><strong>2. 회원 관리</strong></summary>
   
   - 회원 목록
   - 회원 검색
