@@ -130,11 +130,19 @@
 
   일련의 상품 정보들을 input과 select 태그로 입력 받아 form 태그로 Controller로 전달합니다.
   
-  <div style="display:inline">
+  <br>
+  <div>
     ${\textsf{\color{gray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsRegist.jsp 중}}$
-    <p><img src="https://github.com/user-attachments/assets/32cc16a9-dc59-40f1-9cda-ddb84ff3c1c4" width="500px"></p>
+    <p>
+      <img src="https://github.com/user-attachments/assets/32cc16a9-dc59-40f1-9cda-ddb84ff3c1c4" width="500px">
+      <img src="https://github.com/user-attachments/assets/424e20dd-ab2a-4bed-9bfb-625b3babd09a" width="500px">
+    </p>
   </div>
-  
+  매입가 보다 판매가를 낮은 값으로 입력할 수 없도록 매입가의 입력 값이 변경되는 경우 판매가를 입력하는 number 타입 input 태그의 min 속성 값을 매입가에 입력된 값으로 변경 되도록 구현했습니다.
+
+  판매가를 포함한 number 타입 input 태그의 입력 값이 min 속성보다 작은 경우 
+  입력된 값을 min값으로 변경되도록 구현하는 코드를 추가로 작성했습니다. 
+
 
 </details>
 
