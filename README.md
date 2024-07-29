@@ -120,7 +120,7 @@
 <details>
   <summary><strong>관리자 페이지의 상품 등록</strong></summary>
 
-  <img src="https://github.com/user-attachments/assets/71dd79c7-5493-497a-98bc-2f3045065359" width="100px">
+  <img src="https://github.com/user-attachments/assets/71dd79c7-5493-497a-98bc-2f3045065359" width="500px">
 
 </details>
 
