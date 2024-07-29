@@ -91,7 +91,7 @@
 			</li>
 			<li><p class="acordian-btn"><i class="bi bi-box-seam-fill"></i>상품관리</p>
 				<ul class="admin-sub-menu acordian-menu">
-					<c:if test="${loginEmp.level>=9}"><li><a href="/admin/goods/categoryList">카테고리 관리</a></li></c:if>
+					<li><a href="/admin/goods/categoryList">카테고리 관리</a></li>
 					<li><a href="/admin/goods/">상품목록</a></li>
 					<li><a href="/admin/goods/?saleActive=goods_delete">삭제상품목록</a></li>
 					<li><a href="/admin/goods/goodsRegist">상품등록</a></li>
