@@ -208,7 +208,7 @@
 
 <details>
   <summary><strong>관리자 페이지 상품 검색</strong></summary>
-
+  <br>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsList.jsp 중}}$
     <p>
