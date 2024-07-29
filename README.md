@@ -326,7 +326,7 @@
   depart 파리미터로는 로그인중인 관리자의 부서명 정보가 전달되며 inputCateId로 전달 받은 값이 "not_choose"인 경우 전달받은 depart 파라미터의 값으로 관리자의 부서 정보와 일치하는 상품을 검색합니다.
   <br><br>
   최고 관리자의 경우 부서에 상관없이 모든 상품의 조회가 가능하므로 이 조건을 무시합니다.
-  (최고 관리자의 경우 depart로 all 값이 전달되어 이 경우 And cate.depart = #{depart} 쿼리문을 실행하지 않습니다.)
+  (최고 관리자의 경우 depart로 all 값이 전달되어 이 경우 and cate.depart = #{depart} 쿼리문을 실행하지 않습니다.)
   <br><br>
 
   
