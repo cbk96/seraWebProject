@@ -333,7 +333,7 @@
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/adminGoodsMapper.xml 중}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/88d68bcd-0eda-4b0d-ae67-84fd553f887f" width="500px">
+      <img src="https://github.com/user-attachments/assets/3a254186-f97a-4dbc-b7b6-67d8b16baec7" width="500px">
     </p>
   </div>
   <div>
