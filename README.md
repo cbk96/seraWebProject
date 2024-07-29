@@ -1,4 +1,4 @@
-# <u>Sera Online Shopping Mall</u>
+![image](https://github.com/user-attachments/assets/65773d71-24aa-4c46-8da1-50475e28c3b3)# <u>Sera Online Shopping Mall</u>
 스프링 프레임워크와 MariaDB로 구현한 뷰티 상품 온라인 쇼핑몰 프로젝트입니다.
 <br><br>
 
@@ -217,15 +217,35 @@
   </div>
   관리자 페이지에서 상품을 조건별로 검색하는 기능을 구현하기 위해 여러 조건을 입력받는 입력폼을 구현했습니다.
   <br><br>
+  
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/java/org/admin/controller/AdminGoodsController.java 중}}$
     <p>
       <img src="https://github.com/user-attachments/assets/f53ebaff-d52a-4409-81de-b274304b84fd" width="500px">
     </p>
   </div>
-  view에서 전달받은 검색 조건 값은 Map 변수 searchKey 에 담아 mapper.xml로 전달하여 데이터베이스에 존재하는 상품 중 검색 조건에 맞는 상품 목록들을 조회하게 했습니다.
+  view(goodsList.jsp)에서 전달받은 검색 조건 값은 Map 변수 searchKey 에 담아 mapper.xml로 전달하여 DB에 존재하는 상품 중 검색 조건에 맞는 상품 목록들을 조회하게 했습니다.
   <br>
-  조회된 상품 정보들은 GoodsVO형 배열 변수에 저장되어 다시 상품 목록 페이지로 전달됩니다.
+  조회된 상품 정보들은 GoodsVO 클래스형 배열 변수에 저장되어 다시 상품 목록 페이지로 전달됩니다.
+  <br><br>
+  
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/adminGoodsMapper.xml 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/03314e2e-a35b-4bd7-9555-ed62c56c79dd" width="500px">
+    </p>
+  </div>
+  <div>
+    ${\textsf{\color{LightGray}상품 테이블과 카테고리 테이블의 foreign key 제약 관계}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/3be0b76b-572c-4527-aafe-781fe9fd11cd" width="500px">
+    </p>
+  </div>
+  상품 테이블에 저장된 category_id와 카테고리 테이블에 저장된 동명의 컬럼을 비교하여 상품의 카테고리 정보를 가져오기 위해 
+  tbl_goods(상품) 테이블과 tbl_category(카테고리) 테이블을 조인하여 검색합니다.
+  
+  <strong>*상품 테이블에는 카테고리 번호만 저장되어 있고
+  카테고리의 대분류명, 중분류명 값은 카테고리 테이블에만 저장되어 있습니다.</strong>
 
 
 </details>
