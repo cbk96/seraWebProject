@@ -122,15 +122,19 @@
   <br>
   <div>
     ${\textsf{\color{gray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsRegist.jsp 중}}$
-    <p><img src="https://github.com/user-attachments/assets/71dd79c7-5493-497a-98bc-2f3045065359" width="500px"></p>
+    <p>
+      <img src="https://github.com/user-attachments/assets/71dd79c7-5493-497a-98bc-2f3045065359" width="500px">
+      <img src="https://github.com/user-attachments/assets/12711609-83e0-41a7-ae78-3338bd505bcc" width="500px">
+    </p>
   </div>
+
+  일련의 상품 정보들을 input과 select 태그로 입력 받아 form 태그로 Controller로 전달합니다.
   
   <div style="display:inline">
     ${\textsf{\color{gray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsRegist.jsp 중}}$
-    <p><img src="https://github.com/user-attachments/assets/12711609-83e0-41a7-ae78-3338bd505bcc" width="500px"></p>
+    <p><img src="https://github.com/user-attachments/assets/32cc16a9-dc59-40f1-9cda-ddb84ff3c1c4" width="500px"></p>
   </div>
   
-
 
 </details>
 
