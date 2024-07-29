@@ -122,7 +122,7 @@
 
   <div style="display:none">
     <p><img src="https://github.com/user-attachments/assets/71dd79c7-5493-497a-98bc-2f3045065359" width="500px"></p>
-    <p style="color:rgb(211,201,204);">/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsRegist.jsp중</p>
+    <p>/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsRegist.jsp중</p>
   </div>
   
   <div style="display:inline">
