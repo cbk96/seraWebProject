@@ -148,7 +148,37 @@
   판매가를 포함한 number 타입 input 태그의 입력 값이 min 속성보다 작은 경우 
   입력된 값을 min값으로 변경되도록 구현하는 코드를 추가로 작성했습니다.
 
+  <br>
+  <div>
+    ${\textsf{\color{gray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsRegist.jsp 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/72e503ea-d91c-4ca8-aca2-9e3290841d1f" width="500px">
+    </p>
+  </div>
 
+  <div>
+    ${\textsf{\color{gray}"/sera/src/main/webapp/resources/js/empImageUpload.js 중"}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/4c56710b-6c3c-4441-a19d-74c6c2e31fca" width="500px">
+    </p>
+  </div>
+
+  <div>
+    ${\textsf{\color{gray}"/sera/src/main/java/org/admin/controller/EmpController.java 중"}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/54471773-fda2-4816-a9d5-73f3e3f4be7e" width="500px">
+    </p>
+  </div>
+
+  <div>
+    ${\textsf{\color{gray}"/sera/src/main/java/org/admin/controller/AdminGoodsController.java 중"}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/d1e5eb57-c08f-4bff-a354-1dde295278c3" width="500px">
+      <img src="https://github.com/user-attachments/assets/0033ca15-709f-4321-8b41-6ec181bf3803" width="500px">
+    </p>
+  </div>
+  
+  
 </details>
 
 
