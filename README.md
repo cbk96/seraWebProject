@@ -203,12 +203,19 @@
 <br><br>
 
 이렇게 입력된 정보들은 goodsRegist.jsp에서 AdminGoodsController.java의 goodsRegist 메서드로 입력 정보의 요청을 전달, AdminGoodsController에서 service, repository 순으로 요청을 전달하여 DB의 상품 정보 테이블에 새로운 상품 정보를 등록합니다.
-  
+<br><br>
 </details>
 
 <details>
-  <summary><strong>관리자 페이지의 상품 등록</strong></summary>
+  <summary><strong>관리자 페이지 상품 검색</strong></summary>
   
+  div>
+    ${\textsf{\color{LightGray}}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/f53ebaff-d52a-4409-81de-b274304b84fd" width="500px">
+    </p>
+  </div>
+
 </details>
 
 //작성중
