@@ -288,6 +288,13 @@
       <img src="https://github.com/user-attachments/assets/f2aba10d-3f57-4d87-a4c4-166555ba704d" width="500px">
     </p>
   </div>
+  입력폼 카테고리 항목의 select 태그에서 전달된 값(카테고리 대분류, 소분류)이 없으면 mapper로 “not_choose” 값이 전달됩니다.
+  <br><br>
+  전달된 카테고리 값이 없는 경우 depart 값(로그인한 운영자의 부서 정보)에 따라 조회할 상품 목록을 제한합니다.
+  <br><br>
+  최고 관리자의 경우 부서에 상관없이 모든 상품의 조회가 가능하므로 
+  이 조건을 무시합니다.
+  (최고 관리자의 경우 depart로 all 값이 전달되어 이 경우 And cate.depart = #{depart} 쿼리문을 실행하지 않습니다.)
 
 
 
