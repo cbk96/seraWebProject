@@ -1,4 +1,4 @@
-#<u>Sera Online Shopping Mall</u>
+# <u>Sera Online Shopping Mall</u>
 스프링 프레임워크와 MariaDB로 구현한 뷰티 상품 온라인 쇼핑몰 프로젝트입니다.
 <br><br>
 
