@@ -124,6 +124,8 @@
 <details>
   <summary><h3>관리자 페이지 - 상품 등록</h3></summary>
   <br>
+
+  <h4>- 상품 정보 입력폼</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsRegist.jsp 중}}$
     <p>
@@ -213,6 +215,8 @@
 <details>
   <summary><h3>관리자 페이지 - 상품 검색</h3></summary>
   <br>
+
+  <h4>- 상품 검색폼</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsList.jsp 중}}$
     <p>
@@ -228,34 +232,14 @@
   <strong>&lt;select&gt;</strong> 태그로 받은 값은 등록일/수정일, 판매가/매입가와 같은 검색 유형을 선택하는 값으로 SELECT 쿼리문에서 WHERE 절의 컬럼명으로 사용됩니다.<br>
   <strong>&lt;input type="radio"&gt;</strong> 태그로는 검색 조건을 선택적으로 입력 받으며 입력 받은 값은 SELECT 쿼리문에서 WHERE 절의 비교 조건값으로 사용됩니다.<br>
   <br><br>
-  
-  <div>
-    ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/adminGoodsMapper.xml 중}}$
-    <p>
-      <img src="https://github.com/user-attachments/assets/03314e2e-a35b-4bd7-9555-ed62c56c79dd" width="500px">
-    </p>
-  </div>
-  
-  <div>
-    ${\textsf{\color{LightGray}상품 테이블과 카테고리 테이블의 foreign key 제약 관계}}$
-    <p>
-      <img src="https://github.com/user-attachments/assets/3be0b76b-572c-4527-aafe-781fe9fd11cd" width="500px">
-    </p>
-  </div>
-  상품 정보중 대분류, 중분류와 같은 상품의 카테고리 값은 유효한 값만을 저장하게 하도록 DB에서 tbl_goods(상품) 테이블과 tbl_category(카테고리) 테이블간에 FOREIGN KEY 제약 조건을 걸어두었습니다.<br>
-  그렇기에 SELECT 쿼리문에서 카테고리 값을 검색 조건으로 사용할 경우 상품 테이블과 카테고리 테이블을 조인하여 검색합니다.
-  <br>
-  <strong>*상품 테이블에는 카테고리 관련 정보중 카테고리 번호만 저장되어 있고
-  카테고리의 대분류명, 중분류명 값은 카테고리 테이블에 저장되어 있습니다.</strong>
-  <br><br>
 
+  <h4>- 분류별 상품 검색</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/adminGoodsMapper.xml 중}}$
     <p>
       <img src="https://github.com/user-attachments/assets/a8076a80-95ab-4689-b09e-84f9cf78453f" width="500px">
     </p>
   </div>
-
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsList.jsp 중}}$
     <p>
@@ -272,8 +256,29 @@
   <br>
   분류 항목에서 &lt;input type="text"&gt; 태그로 입력 받은 값은 searchKeyVaue 파라미터로 전달되어 SELECT 쿼리문에서 WHERE 절의 조건값으로 사용됩니다.<br>
   LIKE 술어로 조회하기에 선택한 분류(컬럼)에서 입력한 문자열 값과 일부 일치하는 상품들이 검색됩니다.
-  <br><br><br>
-  
+  <br><br>
+
+  <h4>- 카테고리별 상품 검색</h4>
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/adminGoodsMapper.xml 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/03314e2e-a35b-4bd7-9555-ed62c56c79dd" width="500px">
+    </p>
+  </div>
+  <div>
+    ${\textsf{\color{LightGray}상품 테이블과 카테고리 테이블의 foreign key 제약 관계}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/3be0b76b-572c-4527-aafe-781fe9fd11cd" width="500px">
+    </p>
+  </div>
+  상품 정보중 대분류, 중분류와 같은 상품의 카테고리 값은 유효한 값만을 저장하게 하도록 DB에서 tbl_goods(상품) 테이블과 tbl_category(카테고리) 테이블간에 FOREIGN KEY 제약 조건을 걸어두었습니다.<br>
+  그렇기에 SELECT 쿼리문에서 카테고리 값을 검색 조건으로 사용할 경우 상품 테이블과 카테고리 테이블을 조인하여 검색합니다.
+  <br>
+  <strong>*상품 테이블에는 카테고리 관련 정보중 카테고리 번호만 저장되어 있고
+  카테고리의 대분류명, 중분류명 값은 카테고리 테이블에 저장되어 있습니다.</strong>
+  <br><br>
+
+  <h4>- 관리자 권한</h4>
   <div>
     ${\textsf{\color{LightGray}최고 권한의 관리자로 로그인한 경우}}$
       <p><img src="https://github.com/user-attachments/assets/c7b89105-3614-413e-8def-9327f805c5e4" width="500px"></p>
@@ -292,7 +297,9 @@
   </div>
 
   카테고리 항목에서 &lt;select&gt; 태그 내의 선택값은 JSTL Core의 if 태그를 사용하여 관리자의 부서에 해당되는 카테고리만 표기 되도록 구현했습니다.
-  <br><br><br>
+  <br><br>
+
+  <h4>- 분류별 상품 검색</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/adminGoodsMapper.xml 중}}$
     <p>
@@ -318,7 +325,7 @@
 
 
   
-  
+  <h4>- 검색된 상품 정보 전달</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/java/org/admin/controller/AdminGoodsController.java 중}}$
     <p>
