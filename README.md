@@ -121,13 +121,13 @@
   <summary><strong>관리자 페이지의 상품 등록</strong></summary>
 
   <div>
+    ${\textsf{\color{gray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsRegist.jsp 중}}$
     <p><img src="https://github.com/user-attachments/assets/71dd79c7-5493-497a-98bc-2f3045065359" width="500px"></p>
-    ${\textsf{\color{gray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsRegist.jsp 중}}$ 
   </div>
   
   <div style="display:inline">
-    <p><img src="https://github.com/user-attachments/assets/12711609-83e0-41a7-ae78-3338bd505bcc" width="500px"></p>
     ${\textsf{\color{gray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsRegist.jsp 중}}$
+    <p><img src="https://github.com/user-attachments/assets/12711609-83e0-41a7-ae78-3338bd505bcc" width="500px"></p>
   </div>
   
 
