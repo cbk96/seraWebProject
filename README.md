@@ -260,6 +260,17 @@
 
   <h4>- 카테고리별 상품 검색</h4>
   <div>
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsList.jsp 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/f2aba10d-3f57-4d87-a4c4-166555ba704d" width="500px">
+    </p>
+  </div>
+  모든 상품들은 대분류 - 중분류 층으로 이루어진 카테고리 값을 가지고 있습니다.<br>
+  상품 검색시 카테고리별 상품 검색이 가능하도록 구현하였습니다.
+  <br><br>
+
+  <h4>- 데이터베이스의 카테고리 테이블을 참조하여 검색</h4>
+  <div>
     ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/adminGoodsMapper.xml 중}}$
     <p>
       <img src="https://github.com/user-attachments/assets/03314e2e-a35b-4bd7-9555-ed62c56c79dd" width="500px">
@@ -272,7 +283,7 @@
     </p>
   </div>
   상품 정보중 대분류, 중분류와 같은 상품의 카테고리 값은 유효한 값만을 저장하게 하도록 DB에서 tbl_goods(상품) 테이블과 tbl_category(카테고리) 테이블간에 FOREIGN KEY 제약 조건을 걸어두었습니다.<br>
-  그렇기에 SELECT 쿼리문에서 카테고리 값을 검색 조건으로 사용할 경우 상품 테이블과 카테고리 테이블을 조인하여 검색합니다.
+  따라서 SELECT 쿼리문에서 카테고리 값을 검색 조건으로 사용할 경우 상품 테이블과 카테고리 테이블을 조인하여 검색합니다.
   <br>
   <strong>*상품 테이블에는 카테고리 관련 정보중 카테고리 번호만 저장되어 있고
   카테고리의 대분류명, 중분류명 값은 카테고리 테이블에 저장되어 있습니다.</strong>
@@ -304,12 +315,6 @@
     ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/adminGoodsMapper.xml 중}}$
     <p>
       <img src="https://github.com/user-attachments/assets/ed6acf6c-42ad-44ae-8b73-58c71a1bf876" width="500px">
-    </p>
-  </div>
-  <div>
-    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsList.jsp 중}}$
-    <p>
-      <img src="https://github.com/user-attachments/assets/f2aba10d-3f57-4d87-a4c4-166555ba704d" width="500px">
     </p>
   </div>
   상품이 검색될 때 카테고리별 담당 부서의 관리자나 최고 권한을 가진 관리자에게만 검색 되도록 제한을 걸었습니다.<br>
