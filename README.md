@@ -206,7 +206,10 @@
   
 </details>
 
-
+<details>
+  <summary><strong>관리자 페이지의 상품 등록</strong></summary>
+  
+</details>
 
 //작성중
 
