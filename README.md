@@ -402,7 +402,7 @@
 
   <h4>- 목록 페이지의 페이지 번호에 따른 검색 상품수 범위 설정</h4>
   <div>
-    ${\textsf{\color{LightGray}}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsList.jsp 중}$
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsList.jsp 중}}$
     <p>
       <img src="https://github.com/user-attachments/assets/ed6176a6-69f8-46e0-97c1-d3b43019d189" width="1000px">
     </p>
