@@ -157,24 +157,24 @@
   </div>
 
   <div>
-    ${\textsf{\color{gray}"/sera/src/main/webapp/resources/js/empImageUpload.js 중"}}$
+    ${\textsf{\color{gray}/sera/src/main/webapp/resources/js/empImageUpload.js 중}}$
     <p>
       <img src="https://github.com/user-attachments/assets/4c56710b-6c3c-4441-a19d-74c6c2e31fca" width="500px">
     </p>
   </div>
 
   <div>
-    ${\textsf{\color{gray}"/sera/src/main/java/org/admin/controller/EmpController.java 중"}}$
+    ${\textsf{\color{gray}/sera/src/main/java/org/admin/controller/EmpController.java 중}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/54471773-fda2-4816-a9d5-73f3e3f4be7e" width="500px">
+      <img src="https://github.com/user-attachments/assets/54471773-fda2-4816-a9d5-73f3e3f4be7e" width="800px">
     </p>
   </div>
 
   <div>
-    ${\textsf{\color{gray}"/sera/src/main/java/org/admin/controller/AdminGoodsController.java 중"}}$
+    ${\textsf{\color{gray}/sera/src/main/java/org/admin/controller/AdminGoodsController.java 중}}$
     <p>
       <img src="https://github.com/user-attachments/assets/d1e5eb57-c08f-4bff-a354-1dde295278c3" width="500px">
-      <img src="https://github.com/user-attachments/assets/0033ca15-709f-4321-8b41-6ec181bf3803" width="500px">
+      <img src="https://github.com/user-attachments/assets/0033ca15-709f-4321-8b41-6ec181bf3803" width="400px">
     </p>
   </div>
   
