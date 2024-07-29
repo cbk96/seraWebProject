@@ -215,9 +215,7 @@
       <img src="https://github.com/user-attachments/assets/6e943083-f368-4b8a-a82e-b1c987c0fb0a" width="500px">
     </p>
   </div>
-  관리자 페이지에서 select 쿼리문을 통한 상품 검색 기능을 구현하기 위해 검색 조건을 입력하는 입력폼을 구성했습니다.
-  <br>
-  입력폼으로 입력 받은 값은 form태그를 통해 Controller로 전달했습니다.
+  관리자 페이지에서 상품을 조건별로 검색하는 기능을 구현하기 위해 여러 조건을 입력받는 입력폼을 구현했습니다.
   <br><br>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/java/org/admin/controller/AdminGoodsController.java 중}}$
