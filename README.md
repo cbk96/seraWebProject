@@ -430,8 +430,6 @@
   <strong>*LIMIT의 범위는 0번부터 순번을 새기 시작하므로 20은 21번째 상품을 의미</strong>
   <br><br>
   
-
-  
   <h4>- 검색된 상품 정보 전달</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/java/org/admin/controller/AdminGoodsController.java 중}}$
@@ -442,6 +440,9 @@
   조회된 상품 정보들은 GoodsVO 클래스형 배열 변수에 저장되어 다시 상품 목록 페이지로 전달됩니다.
   <br><br>
 </details>
+
+## 📅 <u>데이터베이스 모델링</u>
+<div><img src="https://github.com/user-attachments/assets/b3cc1f57-eb11-40e8-b067-71abffa34d71" width="1000px"></div>
 
 //작성중
 
