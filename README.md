@@ -329,6 +329,30 @@
   (최고 관리자의 경우 depart로 all 값이 전달되어 이 경우 and cate.depart = #{depart} 쿼리문을 실행하지 않습니다.)
   <br><br>
 
+  <h4>- 입력된 카테고리 값에 따른 상품 검색</h4>
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/adminGoodsMapper.xml 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/88d68bcd-0eda-4b0d-ae67-84fd553f887f" width="500px">
+    </p>
+  </div>
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsList.jsp 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/013516ea-1b56-4fad-968a-9f0d82a57e3e" width="500px">
+    </p>
+  </div>
+  카테고리 항목의 &lt;select&gt; 태그에서 전달된 값이 있는 경우 선택한 카테고리명을 조건으로 상품 목록을 검색합니다.
+  <br><br>
+  main_type : 대분류명<br>
+  Category_id : 중분류명 대신 카테고리 아이디 값으로 비교
+  <br><br>
+  대분류, 중분류 select 값 중 “전체”를 선택하면 카테고리명 대신 “allType” 문자열 값이 전달됩니다. 
+  <br><br>
+  이 경우 카테고리명을 조건으로 한 비교 쿼리문을 실행하지 않고 모든 상품을 검색합니다.
+  <br><br>
+  <strong>* 카테고리 select 항목의 ”전체” 옵션은 최고 관리자에게만 노출됩니다.</strong>
+  <br><br>
   
   <h4>- 검색된 상품 정보 전달</h4>
   <div>
