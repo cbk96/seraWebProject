@@ -18,7 +18,7 @@
 
 #### 1. 회원 계정 관리 
 <details> 
-  <summary> #### 1. 회원 계정 관리  </summary>
+  #### 1. <summary> 회원 계정 관리  </summary>
   
   - 회원가입
   - 로그인/로그아웃
