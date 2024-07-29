@@ -136,7 +136,7 @@
   상품 관리에 필요한 일련의 정보들을 Controller를 통해 DB로 전달하기 위한 입력폼을 구성했습니다.
   <br><br>
 
-  <h4>상품 매입가에 따른 판매가 최소치 설정</h4>
+  <h4>- 상품 매입가에 따른 판매가 최소치 설정</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsRegist.jsp 중}}$
     <p>
@@ -150,7 +150,7 @@
   입력된 값을 min값으로 변경되도록 구현하는 코드를 추가로 작성했습니다.
   <br><br>
 
-  <h4>상품 섬네일 이미지 업로드</h4>
+  <h4>- 상품 섬네일 이미지 업로드</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsRegist.jsp 중}}$
     <p>
@@ -184,7 +184,7 @@
   이때 AdminGoodsController.java에서 goodsRegist.jsp로 전달된 <strong>등록일자 + 로그인한 관리자 id + 현재 상품 이미지 디렉토리 내 파일 수</strong> 조합으로 된 문자열 값을 이미지 파일이 업로드 될 디렉토리명으로 생성하기 위해 ajax url 요청으로 문자열 값을 itemName 파라미터로 전달했습니다.
   <br><br>
 
-  <h4>상품 상세 정보 (이미지 + 텍스트) 업로드</h4>
+  <h4>- 상품 상세 정보 (이미지 + 텍스트) 업로드</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsRegist.jsp 중}}$
     <p>
