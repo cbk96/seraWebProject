@@ -445,7 +445,7 @@
 ## 🖇️ <u>데이터베이스 설계</u>
 이전 직장에서 쇼핑몰을 관리해본 경험을 바탕으로 상품 관리에 필요한 요소를 분석하여 데이터베이스를 설계하였습니다.
 <br>
-<div><img src="https://github.com/user-attachments/assets/971c618c-565b-44b2-ba86-9f4c7c318318" width="1000px"></div>
+<div><img src="https://github.com/user-attachments/assets/983667b0-c376-40d5-895d-fbcafba61119" width="1000px"></div>
 
 
 //작성중
