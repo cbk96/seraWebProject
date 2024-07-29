@@ -408,12 +408,18 @@
     </p>
   </div>
   <div>
-    ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/adminGoodsMapper.xml}}$
+    ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/adminGoodsMapper.xml 중}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/b7c825a3-2fe7-4480-b934-d25bddd80da4" width="500px">
+      <img src="https://github.com/user-attachments/assets/29248215-a1ac-4ca5-bd37-7486a3198497" width="500px">
     </p>
   </div>
-  LIMIT 술어를 사용하여 상품 목록 페이지의 페이징 번호에 따라 검색할 상품의 범위를 설정합니다.
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/java/org/admin/controller/AdminGoodsController.java 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/6d0a1417-527e-4a39-b7ed-70b142598b34" width="500px">
+    </p>
+  </div>
+  LIMIT 술어를 사용하여 상품 목록 페이지의 페이지 번호에 따라 검색할 상품의 범위를 설정합니다.
   <br><br>
   pageCnt (정수형 변수) : 제한된 조회 범위 중 시작 순번<br>
   PAGE_MAX_AD_GOODS_CNT (정수형 상수) : 한 페이지에 표시할 최대 상품 개수 = 10
