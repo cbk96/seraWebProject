@@ -120,15 +120,15 @@
 <details>
   <summary><strong>관리자 페이지의 상품 등록</strong></summary>
 
-  <div>
+  <span>
+    <p style="color:#d3c9cc;">/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsRegist.jsp중</p>
     <p><img src="https://github.com/user-attachments/assets/71dd79c7-5493-497a-98bc-2f3045065359" width="500px"></p>
-    <span style="color:#d3c9cc;">/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsRegist.jsp중</span>
-  </div>
+  </span>
   
-  <div style="display:inline">
-    <p><img src="https://github.com/user-attachments/assets/12711609-83e0-41a7-ae78-3338bd505bcc" width="500px"></p>
+  <span style="display:inline">
     <p>/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsRegist.jsp중</p>
-  </div>
+    <p><img src="https://github.com/user-attachments/assets/12711609-83e0-41a7-ae78-3338bd505bcc" width="500px"></p>
+  </span>
   
 
 
