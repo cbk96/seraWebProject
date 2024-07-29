@@ -219,9 +219,9 @@
   <br>
   입력받은 값은 SELECT 쿼리문으로 DB에서 상품 목록을 검색할 때의 조건으로 사용됩니다.
   <br><br>
-  &lt;input type="text"&gt; 태그로 입력받은 값들은 상품명, 상품 가격과 같이 관리자가 자유롭게 입력할 수 있는 키워드로 SELECT 쿼리문에서 WHERE 절의 비교 조건값으로 사용됩니다.<br>
-  &lt;select&gt; 태그로 받은 값은 등록일/수정일, 판매가/매입가와 같은 검색 유형을 선택하는 값으로 SELECT 쿼리문에서 WHERE 절의 컬럼명으로 사용됩니다.<br>
-  &lt;input type="radio"&gt; 태그로 입력받은 값은 검색 조건을 선택하는 값으로 SELECT 쿼리문에서 WHERE 절의 컬럼명으로 사용됩니다.<br>
+  <strong>&lt;input type="text"&gt;</strong> 태그로 입력받은 값들은 상품명, 상품 가격과 같이 관리자가 자유롭게 입력할 수 있는 키워드로 SELECT 쿼리문에서 WHERE 절의 비교 조건값으로 사용됩니다.<br>
+  <strong>&lt;select&gt;</strong> 태그로 받은 값은 등록일/수정일, 판매가/매입가와 같은 검색 유형을 선택하는 값으로 SELECT 쿼리문에서 WHERE 절의 컬럼명으로 사용됩니다.<br>
+  <strong>&lt;input type="radio"&gt;</strong> 태그로 입력받은 값은 검색 조건을 선택하는 값으로 SELECT 쿼리문에서 WHERE 절의 컬럼명으로 사용됩니다.<br>
   <br><br>
   
   <div>
@@ -266,7 +266,7 @@
       <img src="https://github.com/user-attachments/assets/6cf0681f-ba96-49b8-b805-faec0a2c3752" width="500px">
     </p>
   </div>
-  &lt;select&gt; 태그로 입력받은 값중 분류 항목이 값은 searchkey 파라미터로 전달되어 SELECT 쿼리문에서 WHERE 절의 컬럼명으로 사용됩니다.<br>
+  분류 항목에서 &lt;select&gt; 태그로 입력받은 값은 searchkey 파라미터로 전달되어 SELECT 쿼리문에서 WHERE 절의 컬럼명으로 사용됩니다.<br>
   LIKE 술어로 조회하기에 선택한 분류(컬럼)에서 입력한 문자열 값과 일부 일치하는 상품들이 검색됩니다.<br>
   아래는 선택된 검색 유형별로 SELECT 쿼리문에서 어떤 컬럼명이 사용 되는지를 설명한 예시입니다.<br><br>
   
@@ -274,6 +274,10 @@
   <strong>일련번호</strong> -> goods_id : tbl_goods(상품) 테이블에서 상품의 일련번호를 저장한 컬럼<br>
   <strong>상품 검색키워드</strong> -> goods_search_key : tbl_goods(상품) 테이블에서 검색 키워드를 저장한 값으로 고객이 상품을 검색할 때 입력할만한, 상품과 관련성이 높은 키워드를 저장하여 검색 노출도를 올리기 위해 사용하는 컬럼입니다.<br> 
   <strong>등록자</strong> -> emp_id : tbl_goods(상품) 테이블에서 상품을 등록한 관리자의 계정 id를 저장한 값이며 유효한 값만을 저장하기 위해 tbl_emp(관리자) 테이블의 PRIMARY KEY를 참조한 컬럼입니다.<br>
+  <br><br>
+  분류 항목에서 &lt;input type="text"&gt; 태그로 입력 받은 값은 searchKeyVaue 파라미터로 전달되어 SELECT 쿼리문에서 WHERE 절의 조건값으로 사용됩니다.<br>
+  LIKE 술어로 조회하기에 선택한 분류(컬럼)에서 입력한 문자열 값과 일부 일치하는 상품들이 검색됩니다.
+
   <br><br>
   
   <div>
@@ -288,9 +292,13 @@
       <img src="https://github.com/user-attachments/assets/f2aba10d-3f57-4d87-a4c4-166555ba704d" width="500px">
     </p>
   </div>
-  입력폼 카테고리 항목의 select 태그에서 전달된 값(카테고리 대분류, 소분류)이 없으면 mapper로 “not_choose” 값이 전달됩니다.
+  상품은 카테고리별로 담당 부서의 관리자나 최고 권한을 가진 관리자에게만 표시되도록 제한을 걸었습니다.<br>
+  DB의 상품 카테고리 테이블과 관리자 정보 테이블에는 담당 부서명을 저장하는 depart 컬럼이 있으며<br> 
+  SELECT 쿼리문으로 상품 조회시 각 테이블의 depart 컬럼의 값을 비교하여 일치하는 경우에만 상품이 검색되는 형태로 구현했습니다.
   <br><br>
-  전달된 카테고리 값이 없는 경우 depart 값(로그인한 운영자의 부서 정보)에 따라 조회할 상품 목록을 제한합니다.
+  카테고리 항목에서 &lt;select&gt; 태그로 입력받은 값(카테고리 대분류, 소분류)은 inputCateId 파라미터로 전달됩니다. "전체"를 선택한 경우 “not_choose” 문자열 값이 전달됩니다.
+  depart 파리미터로는 로그인중인 관리자의 부서명 정보가 전달되며 inputCateId로 전달 받은 값이 "not_choose"인 경우<br>
+  전딜받은 depart 파라미터의 값으로 관리자의 부서 정보와 일치하는 상품을 검색합니다.
   <br><br>
   최고 관리자의 경우 부서에 상관없이 모든 상품의 조회가 가능하므로 
   이 조건을 무시합니다.
