@@ -207,7 +207,7 @@
 </details>
 
 <details>
-  <summary><strong>관리자 페이지 - 상품 검색</strong></summary>
+  <summary><h3>관리자 페이지 - 상품 검색</h3></summary>
   <br>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsList.jsp 중}}$
@@ -223,15 +223,6 @@
   <strong>&lt;input type="text"&gt;</strong> 태그로 입력받은 값들은 상품명, 상품 가격과 같이 관리자가 자유롭게 입력할 수 있는 키워드로 SELECT 쿼리문에서 WHERE 절의 비교 조건값으로 사용됩니다.<br>
   <strong>&lt;select&gt;</strong> 태그로 받은 값은 등록일/수정일, 판매가/매입가와 같은 검색 유형을 선택하는 값으로 SELECT 쿼리문에서 WHERE 절의 컬럼명으로 사용됩니다.<br>
   <strong>&lt;input type="radio"&gt;</strong> 태그로는 검색 조건을 선택적으로 입력 받으며 입력 받은 값은 SELECT 쿼리문에서 WHERE 절의 비교 조건값으로 사용됩니다.<br>
-  <br><br>
-  
-  <div>
-    ${\textsf{\color{LightGray}/sera/src/main/java/org/admin/controller/AdminGoodsController.java 중}}$
-    <p>
-      <img src="https://github.com/user-attachments/assets/f53ebaff-d52a-4409-81de-b274304b84fd" width="500px">
-    </p>
-  </div>
-  조회된 상품 정보들은 GoodsVO 클래스형 배열 변수에 저장되어 다시 상품 목록 페이지로 전달됩니다.
   <br><br>
   
   <div>
@@ -322,7 +313,16 @@
   (최고 관리자의 경우 depart로 all 값이 전달되어 이 경우 And cate.depart = #{depart} 쿼리문을 실행하지 않습니다.)
 
 
-
+  
+  
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/java/org/admin/controller/AdminGoodsController.java 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/f53ebaff-d52a-4409-81de-b274304b84fd" width="500px">
+    </p>
+  </div>
+  조회된 상품 정보들은 GoodsVO 클래스형 배열 변수에 저장되어 다시 상품 목록 페이지로 전달됩니다.
+  <br><br>
 </details>
 
 //작성중
