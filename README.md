@@ -410,7 +410,7 @@
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/adminGoodsMapper.xml 중}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/29248215-a1ac-4ca5-bd37-7486a3198497" width="500px">
+      <img src="https://github.com/user-attachments/assets/e223c9e4-5a98-4356-9a9b-34cd1bd74394" width="500px">
     </p>
   </div>
   <div>
