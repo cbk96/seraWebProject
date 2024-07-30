@@ -537,7 +537,7 @@
   그와 동시에 DB의 tbl_member(회원) 테이블에서 회원의 마일리지 정보를 검색하여 회원 로그인 세션에 저장시킵니다.
   <br><br>
 
-  <h4>- 주문서 작성</h4>
+  <h4>- 주문서 작성(구매 상품 목록)</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/orderForm.jsp 중}}$
     <p>
@@ -565,9 +565,9 @@
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/orderForm.jsp 중}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/8bce7cd1-1b90-4d83-95ad-f5ee224e9ec9" width="500px">
-      <img src="https://github.com/user-attachments/assets/d06e77f5-7c9c-4890-8933-d09b5597d7b9" width="500px">
-      <img src="https://github.com/user-attachments/assets/f81dc08c-255c-4fef-9c77-04bf5c167fd3" width="500px">
+      <img src="https://github.com/user-attachments/assets/8bce7cd1-1b90-4d83-95ad-f5ee224e9ec9" width="330px">
+      <img src="https://github.com/user-attachments/assets/d06e77f5-7c9c-4890-8933-d09b5597d7b9" width="330px">
+      <img src="https://github.com/user-attachments/assets/f81dc08c-255c-4fef-9c77-04bf5c167fd3" width="330px">
     </p>
     <p><img src="https://github.com/user-attachments/assets/ae1a8b08-8d7d-431c-896b-c15ce558f430" width="500px"></p>
   </div>
