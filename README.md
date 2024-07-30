@@ -580,10 +580,8 @@
   <h4>- 주문서 작성(총 결제 금액 확인)</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/orderForm.jsp 중}}$
-    <p>
-      <img src="https://github.com/user-attachments/assets/0fd06d88-3c41-4ce0-8d6a-e2ec5103eaf5" width="500px">
-      <img src="https://github.com/user-attachments/assets/3a874c42-6689-4d83-a1ce-b815ed3abf96" width="500px">
-    </p>
+    <p><img src="https://github.com/user-attachments/assets/0fd06d88-3c41-4ce0-8d6a-e2ec5103eaf5" width="500px"></p>
+    <p><img src="https://github.com/user-attachments/assets/3a874c42-6689-4d83-a1ce-b815ed3abf96" width="500px"></p>
   </div>
   결제할 총 금액을 안내하는 결제 금액란입니다.<br>
   상품 목록에 표시된 금액을 모두 합산한 후 마일리지 사용이 이루어진 경우 사용액 만큼 차감하여 표시하도록 구현했습니다.
