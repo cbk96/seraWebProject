@@ -687,7 +687,7 @@
    <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/order/orderOneDetail.jsp 중}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/9f1f391a-4916-4e02-bbbd-620b7b93f8c9" width="500px">
+      <img src="https://github.com/user-attachments/assets/9f1f391a-4916-4e02-bbbd-620b7b93f8c9" width="700px">
     </p>
   </div>
   주문 정보중 결제 정보를 확인할 수 있는 단락입니다. 마일리지 사용 내역이 있는 경우 마일리지 사용을 취소하고 마일리지를 복원시키는게 가능합니다.
@@ -695,7 +695,7 @@
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/order/orderOneDetail.jsp 중}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/f337dc16-138c-49bd-be50-82a78707e944" width="500px">
+      <img src="https://github.com/user-attachments/assets/f337dc16-138c-49bd-be50-82a78707e944" width="700px">
     </p>
   </div>
   주문 정보중 배송지 정보를 확인할 수 있는 단락입니다. 여기서 주문자명과 배송지 주소를 변경하는게 가능합니다.
@@ -704,7 +704,7 @@
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/order/orderOneDetail.jsp 중}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/df4c4439-2d3d-4b51-827d-01d0d5dadd79" width="500px">
+      <img src="https://github.com/user-attachments/assets/df4c4439-2d3d-4b51-827d-01d0d5dadd79" width="700px">
     </p>
   </div>
   주문 정보중 상품명, 상품금액, 주문상태를 확인할 수 있는 단락입니다.<br>
