@@ -551,7 +551,7 @@
 
   <h4>- 주문서 작성(배송 정보 작성)</h4>
   <div>
-    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/orderForm.jsp}}$
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/orderForm.jsp 중}}$
     <p>
       <img src="https://github.com/user-attachments/assets/fd3996f3-8a2c-4a61-91ac-27e0fc9749be" width="500px">
       <img src="https://github.com/user-attachments/assets/3383a226-feef-4ffc-b731-de90c432c0a9" width="500px">
@@ -560,6 +560,17 @@
   주문자의 배송지 정보를 작성하는 단락입니다.<br>
   회원 로그인이 되어 있는 경우 DB의 tbl_member(회원) 테이블에서 배송에 필요한 정보를 조회하여 자동으로 기입하도록 구현했습니다.
   <br><br>
+
+  <h4>- 주문서 작성(결제 정보 작성)</h4>
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/orderForm.jsp 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/8bce7cd1-1b90-4d83-95ad-f5ee224e9ec9" width="500px">
+      <img src="https://github.com/user-attachments/assets/d06e77f5-7c9c-4890-8933-d09b5597d7b9" width="500px">
+      <img src="https://github.com/user-attachments/assets/f81dc08c-255c-4fef-9c77-04bf5c167fd3" width="500px">
+    </p>
+    <p><img src="https://github.com/user-attachments/assets/ae1a8b08-8d7d-431c-896b-c15ce558f430" width="500px"></p>
+  </div>
   
   
 </details>
