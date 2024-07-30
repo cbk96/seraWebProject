@@ -633,6 +633,20 @@
   allOrders를 마이페이지 view로 전달하여 같은 주문번호에 속하는 주문번호들을 묶어서 출력합니다.
   <br><br>
 
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/328967eb-1df2-4129-9677-1999cdf1813b" width="500px">
+    </p>
+  </div>
+  주문상태에 따라 주문에 대한 취소/반품 요청을 하거나 구매 확정을 진행하고 후기를 작성하는게 가능합니다.
+  <br><br>
+  <strong>결제완료</strong> : 이 단계에서는 주문 취소 요청하는 것이 가능합니다.<br>
+  <strong>배송준비중</strong> : 이 단계에서는 주문 취소 요청이 불가합니다.<br>
+  <strong>배송중</strong> : 이 단계에서는 주문 취소 요청이 불가합니다.<br>
+  <strong>배송완료</strong> : 이 단계에서는 주문 취소는 불가하나 반품 요청이 가능합니다. 혹은 구매 확정을 진행할 수 있습니다.<br>
+  <strong>구매확정</strong> : 이 단계에서는 주문 취소, 반품 모두 불가합니다.<br>
+  
   
   
   
