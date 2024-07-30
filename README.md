@@ -307,7 +307,7 @@
       <p><img src="https://github.com/user-attachments/assets/7d08eee4-8fdd-4308-9a36-a0e4bf082123" width="650px"></p>
   </div>
 
-  카테고리 항목에서 &lt;select&gt; 태그 내의 선택값은 JSTL Core의 if 태그를 사용하여 관리자의 부서에 해당되는 카테고리만 표기 되도록 구현했습니다.
+  카테고리 항목에서 &lt;select&gt; 태그 내의 선택값은 JSTL Core의 &lt;if&gt; 태그를 사용하여 관리자의 부서에 해당되는 카테고리만 표기 되도록 구현했습니다.
   <br><br>
 
   <h4>- 관리자 권한에 따라 검색되는 상품 필터링</h4>
@@ -716,12 +716,27 @@
   <h4>- 주문 취소/반품 요청 (고객)</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp 중}}$
-    <p>
-      <img src="https://github.com/user-attachments/assets/50189ac2-f29d-4c1b-84f6-d47d24e5dbd2" width="1000px">
-    </p>
+    <p><img src="https://github.com/user-attachments/assets/50189ac2-f29d-4c1b-84f6-d47d24e5dbd2" width="1000px"></p>
+    <p><img src="https://github.com/user-attachments/assets/3147b373-2bd7-4669-b941-08e5af2033d1" width="1000px"></p>
   </div>
   <strong>결제완료</strong> 상태의 주문은 주문 취소 요청하는 것이 가능합니다.<br>
-  <strong>배송완료</strong> 상태의 주문은 주문 취소는 불가하나 반품 요청이 가능합니다. 혹은 구매 확정을 진행할 수 있습니다.<br>
+  <strong>배송완료</strong> 상태의 주문은 주문 취소는 불가하나 반품 요청이 가능합니다. 혹은 구매 확정을 진행할 수 있습니다.
+  <br><br>
+  배송상태에 따라 취소/반품 요청이 표시되는 기능은 JSTL Core의 &lt;when&gt; 태그를 이용하여 구현하였습니다.
+  <br><br>
+  다만 고객이 취소/반품 요청을 하는 즉시 배송상태가 취소/반품으로 변경되지 않습니다.<br>
+  관리자가 요청을 승인하고 배송상태를 변경해야 비로서 취소나 반품으로 배송상태가 변경됩니다.
+  <br><br>
+  관리자용 페이지에서의 취소/반품 처리가 이루어지는 과정을 보여드리기 위해 고객용 페이지에서 취소와 반품 요청을 해보겠습니다.
+  <br><br><br>
+
+  <h4>- 주문 취소/반품 요청 처리 (관리자)</h4>
+  <div>
+    ${\textsf{\color{LightGray}}}$
+    <p>
+      <img src="" width="500px">
+    </p>
+  </div>
   
 </details>
 <br><br>
