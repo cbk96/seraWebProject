@@ -472,7 +472,7 @@
   <h4>- 상품 재고량에 따른 상품 구매량 제한</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/goodsOne.jsp}}$
-    <p><img src="https://github.com/user-attachments/assets/d0a335b5-ded0-4b79-b85d-b884329446f0" width="500px"></p>
+    <p><img src="https://github.com/user-attachments/assets/d3bd2702-18d3-4daa-86cd-d29357385671" width="500px"></p>
     <p><img src="https://github.com/user-attachments/assets/32be870d-3658-4c01-872e-3ebf5aa4a2f5" width="1000px"></p>
     <p><img src="https://github.com/user-attachments/assets/3a90d636-9344-4473-a503-5015d76b2a43" width="500px"></p>
     <p><img src="https://github.com/user-attachments/assets/2b207208-bce2-477a-9f90-8d7ecb61c6e3" width="500px"></p>
