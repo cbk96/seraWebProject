@@ -122,7 +122,7 @@
 온라인 쇼핑몰 프로젝트인 만큼 여러 기능 가운데 가장 신경써서 구현한 기능은 관리자의 상품 등록을 시작으로 고객의 구매까지 이어지는 상품 관리 기능입니다.
 
 <details>
-  <summary><h3>관리자 페이지 - 상품 등록</h3></summary>
+  <summary><h3>관리자용 페이지 - 상품 등록</h3></summary>
   <br>
 
   <h4>- 상품 정보 입력폼</h4>
@@ -213,7 +213,7 @@
 </details>
 
 <details>
-  <summary><h3>관리자 페이지 - 상품 검색</h3></summary>
+  <summary><h3>관리자용 페이지 - 상품 검색</h3></summary>
   <br>
 
   <h4>- 상품 검색폼</h4>
@@ -440,6 +440,18 @@
   조회된 상품 정보들은 GoodsVO 클래스형 배열 변수에 저장되어 다시 상품 목록 페이지로 전달됩니다.
   <br><br>
 </details>
+
+<details>
+  <summary><h3>고객용 페이지 - 상품 구매</h3></summary>
+  <br>
+
+  <div>
+    ${\textsf{\color{LightGray}}}$
+    <p>
+      <img src="" width="500px">
+    </p>
+  </div>
+
 <br><br>
 
 ## 🖇️ <u>데이터베이스 설계</u>
