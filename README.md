@@ -446,21 +446,21 @@
   <br>
 
   <div>
-    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/goodsOne.jsp 중}}$
-    <p>
-      <img src="https://github.com/user-attachments/assets/fdf43819-9786-448a-86cf-2f452549abfc" width="500px">
-    </p>
-  </div>
-  <div>
     ${\textsf{\color{LightGray}/sera/src/main/java/org/sera/controller/GoodsController.java 중}}$
     <p>
       <img src="https://github.com/user-attachments/assets/41b9a6bb-fd1d-4fb0-a0fd-7e4512ab8486" width="500px">
     </p>
   </div>
   <div>
-    ${\textsf{\color{LightGray}}}$
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/goodsOne.jsp 중}}$
     <p>
-      <img src="" width="500px">
+      <img src="https://github.com/user-attachments/assets/47ff777d-54bc-4fb5-8ccd-a7d70cc38105" width="500px">
+    </p>
+  </div>
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/goodsOne.jsp 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/fdf43819-9786-448a-86cf-2f452549abfc" width="500px">
     </p>
   </div>
   
