@@ -454,7 +454,7 @@
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/goodsOne.jsp 중}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/47ff777d-54bc-4fb5-8ccd-a7d70cc38105" width="500px">
+      <img src="https://github.com/user-attachments/assets/5258ad76-31db-4245-8c4f-7546899052f7" width="1000px">
     </p>
   </div>
   <div>
