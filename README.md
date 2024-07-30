@@ -519,6 +519,8 @@
       <img src="https://github.com/user-attachments/assets/59dc8e8c-f4c8-4381-98ed-0220e59369ef" width="700px">
     </p>
   </div>
+  장바구니에서도 구매 수량 변경을 가능하게 구현 했습니다. <br> 
+  변경된 구매 수량이 DB에 반영될 때 마다 페이지 재호출이 반복되면 사용자에게 피로를 유발하기에 DB에 반영하는 작업 호출은 Ajax를 통하여 비동기로 처리하였습니다.
 
   
 </details>
