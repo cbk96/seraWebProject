@@ -451,6 +451,7 @@
       <img src="" width="500px">
     </p>
   </div>
+</details>
 
 <br><br>
 
