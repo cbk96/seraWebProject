@@ -664,7 +664,7 @@
   관리자용 페이지의 주문 목록 페이지입니다<br>
   DB의 tbl_orders(주문 정보) 테이블에서 주문 정보를 검색하여 반환된 정보를 OrverVO(ValueObject) 배열 변수에 저장합니다.<br>
   저장된 주문 정보들을 orderList라는 이름으로 Controller에서 주문 목록 페이지 view로 전달하여 화면에 출력합니다.
-  <br><br>   
+  <br><br><br>
 
   <h4>- 주문자 유형 구별 표시</h4>
   <div>
