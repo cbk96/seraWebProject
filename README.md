@@ -565,12 +565,16 @@
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/orderForm.jsp 중}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/8bce7cd1-1b90-4d83-95ad-f5ee224e9ec9" width="330px">
-      <img src="https://github.com/user-attachments/assets/d06e77f5-7c9c-4890-8933-d09b5597d7b9" width="330px">
-      <img src="https://github.com/user-attachments/assets/f81dc08c-255c-4fef-9c77-04bf5c167fd3" width="330px">
+      <img src="https://github.com/user-attachments/assets/592bfb79-6e51-48aa-bfae-9f8669806f80" width="330px">
+      <img src="https://github.com/user-attachments/assets/0c33809e-53ce-44ea-89fb-976575b154b1" width="330px">
+      <img src="https://github.com/user-attachments/assets/11107087-837b-40a2-aa4c-7f698d307505" width="330px">
     </p>
     <p><img src="https://github.com/user-attachments/assets/ae1a8b08-8d7d-431c-896b-c15ce558f430" width="600px"></p>
   </div>
+  마일리지로 결제 금액을 할인하고 결제 수단을 선택하는 단락입니다.<br>
+  마일리지 입력란은 보유중인 마일리지 보다 큰 액수를 입력하면 보유중인 마일리지 최대 액수로 입력 값이 변경되며<br>
+  보유 마일리지가 총 주문 금액 보다 큰 경우 마일리지 최대 금액을 입력하면 총 주문 금액으로 입력 값이 변경되도록 설정하였습니다.
+  <br><br>
   
   
   
