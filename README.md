@@ -767,10 +767,27 @@
   <strong>goods_id</strong> 값으로 주문에서 어떤 상품의 배송상태를 변경할 것인지를 선택하고 <br>
   <strong>requestType</strong> 값으로 어떤 상태로 변경할 것인지를 지정합니다.
   <br><br>
-  
+
+  <h4>- 주문 취소/반품 요청 처리 결과</h4>
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/order/orderOneDetail.jsp 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/b7577830-ea67-408a-b41a-8519a051dca4" width="1000px">
+    </p>
+  </div>
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/e21c2b3a-551f-48da-8187-68e8f7c31916" width="1000px">
+    </p>
+  </div>
+  관리자의 취소/반품가 완료되면 관리자용 페이지와 고객용 페이지로 배송상태가 변경 되었음을 확인할 수 있습니다.
+  <br><br>
+
   
 </details>
 <br><br>
+//작성중
 
 ## 🖇️ <u>데이터베이스 설계</u>
 이전 직장에서 쇼핑몰을 관리해본 경험을 바탕으로 상품 관리에 필요한 요소를 분석하여 데이터베이스를 설계하였습니다.
