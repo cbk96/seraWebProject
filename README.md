@@ -612,7 +612,7 @@
 <details>
   <summary><h3>주문 관리</h3></summary>
   <br>
-  <h4>- 구매 내역 조회 (고객)()</h4>
+  <h4>- 구매 내역 조회 (고객)</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp 중}}$
     <p><img src="https://github.com/user-attachments/assets/71d18ef0-43b9-4cb2-84b8-e8f72205c65d" width="500px"> </p>
@@ -646,8 +646,25 @@
   <strong>배송중</strong> : 이 단계에서는 주문 취소 요청이 불가합니다.<br>
   <strong>배송완료</strong> : 이 단계에서는 주문 취소는 불가하나 반품 요청이 가능합니다. 혹은 구매 확정을 진행할 수 있습니다.<br>
   <strong>구매확정</strong> : 이 단계에서는 주문 취소, 반품 모두 불가합니다.<br>
-  
-  
+  <br><br>
+
+  <h4>- 구매 내역 조회 (관리자)</h4>
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/order/orderList.jsp}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/39e5c41b-57b2-429c-a870-e615ac67a85f" width="700px">
+    </p>
+  </div>
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/java/org/admin/controller/AdminOrderController.java 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/dbbd03ff-dd65-437d-a53c-6fa925c14eeb" width="700px">
+    </p>
+  </div>
+  관리자용 페이지의 주문 목록 페이지입니다<br>
+  DB의 tbl_orders(주문 정보) 테이블에서 주문 정보를 검색하여 반환된 정보를 OrverVO(ValueObject) 배열 변수에 저장합니다.<br>
+  저장된 주문 정보들을 orderList라는 이름으로 Controller에서 주문 목록 페이지 view로 전달하여 화면에 출력합니다.
+  <br><br>   
   
   
 </details>
