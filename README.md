@@ -597,7 +597,6 @@
     <p>
       <img src="https://github.com/user-attachments/assets/30559109-81a8-4055-9470-e8fb00334cd2" width="500px">
       <img src="https://github.com/user-attachments/assets/7cef2d53-3003-4360-870b-274f8bf5d864" width="500px">
-
     </p>
   </div>
   주문서 작성 완료 후 결제 버튼을 누르면 결제 요청에 대한 처리 결과를 보여주는 주문 결과 페이지를 호출하게 됩니다.<br>
