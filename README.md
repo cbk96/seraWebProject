@@ -539,12 +539,28 @@
 
   <h4>- 주문서 작성</h4>
   <div>
-    ${\textsf{\color{LightGray}}}$
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/orderForm.jsp 중}}$
     <p>
-      <img src="" width="500px">
+      <img src="https://github.com/user-attachments/assets/654bb8e0-b484-4d48-9393-cdb940f4e95b" width="500px">
+      <img src="https://github.com/user-attachments/assets/1af0016b-e7ab-4ad7-b5f0-7b5dbc048131" width="500px">
     </p>
   </div>
+  주문서 작성 페이지중 구매하는 상품의 목록을 안내해주는 단락입니다.<br>
+  url를 입력하여 주문서 페이지에 접속하는 등 올바르지 않은 경로로 주문서 페이지에 접근하여 표시할 상품 정보가 없는 경우 "상품 정보가 없습니다." 메세지기 출력 되도록 설정하였습니다. 
+  <br><br>
 
+  <h4>- 주문서 작성(배송 정보 작성)</h4>
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/orderForm.jsp}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/fd3996f3-8a2c-4a61-91ac-27e0fc9749be" width="500px">
+      <img src="https://github.com/user-attachments/assets/3383a226-feef-4ffc-b731-de90c432c0a9" width="500px">
+    </p>
+  </div>
+  주문자의 배송지 정보를 작성하는 단락입니다.<br>
+  회원 로그인이 되어 있는 경우 DB의 tbl_member(회원) 테이블에서 배송에 필요한 정보를 조회하여 자동으로 기입하도록 구현했습니다.
+  <br><br>
+  
   
 </details>
 <br><br>
