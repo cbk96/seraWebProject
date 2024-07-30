@@ -460,7 +460,7 @@
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/goodsOne.jsp 중}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/fdf43819-9786-448a-86cf-2f452549abfc" width="500px">
+      <img src="https://github.com/user-attachments/assets/fdf43819-9786-448a-86cf-2f452549abfc" width="700px">
     </p>
   </div>
   
