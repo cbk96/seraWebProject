@@ -733,7 +733,7 @@
 
   <h4>- 주문 취소/반품 요청 처리 (관리자)</h4>
   <div>
-    ${\textsf{\color{LightGray}}}$
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/order/orderOneDetail.jsp 중}}$
     <p>
       <img src="https://github.com/user-attachments/assets/bbf3976e-f42f-4b10-9f4e-86b05b409c80" width="1000px">
     </p>
