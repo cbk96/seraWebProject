@@ -755,7 +755,7 @@
   </div>
   취소/반품 버튼을 클릭하면 DB의 tbl_orders(주문정보) 테이블의 order_status(배송상태) 컬럼의 값을 변경하는 요청을 Ajax를 통하여 Controller로 전달합니다.<br>
   이때 Contorller에 전달되는 JSON 변수의 requestType의 값이 취소 요청이면 "취소" 값으로, 반품 요청이면 "반품" 값으로 전달됩니다.
-  <br><br>
+  <br><br><br>
   
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/java/org/admin/controller/AdminOrderController.java 중}}$
