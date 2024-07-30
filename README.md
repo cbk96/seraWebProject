@@ -478,7 +478,8 @@
     <p><img src="https://github.com/user-attachments/assets/d156ce03-7549-4c57-8c86-3d362dbb47e6" width="500px"></p>
   </div>
   Contorller에서 전달받은 상품 정보(goodsInfo)의 속성 amount는 상품의 재고량을 저장한 값으로 구매 수량을 입력하는 &lt;input type="number"&gt; 태그에서 max 속성의 값으로 사용됩니다.<br>
-  
+  입력된 구매 수량의 값이 amount 값을 초과하는 경우 구매 수량의 값을 amount와 동일한 값으로 변경시키고 최대 구매 가능한 수량을 구매 수량 입력란 우측에 표기하여<br>
+  재고량 이상으로 구매할 수 없도록 설정하였습니다.
   <br><br>
   
   
