@@ -618,8 +618,8 @@
     <p><img src="https://github.com/user-attachments/assets/71d18ef0-43b9-4cb2-84b8-e8f72205c65d" width="700px"> </p>
     <p><img src="https://github.com/user-attachments/assets/e28344a4-3bcd-4938-b93c-16c60b4b9652" width="500px"> </p>
   </div>
-  마이페이지중 주문내역을 주문 상태별로 보여주는 진행 주문 단락입니다.<br>
-  DB의 tbl_orders(주문내역) 테이블에서 회원의 검색한 회원의 주문 정보중 주문 상태값을 orderStauts라는 이름으로 전달받아 주문 상태별로 정렬시켰습니다.
+  마이페이지중 주문내역을 배송상태별로 보여주는 진행 주문 단락입니다.<br>
+  DB의 tbl_orders(주문내역) 테이블에서 회원의 검색한 회원의 주문 정보중 배송상태값을 orderStauts라는 이름으로 전달받아 배송상태별로 정렬시켰습니다.
   <br><br>
 
   <div>
@@ -639,7 +639,7 @@
       <img src="https://github.com/user-attachments/assets/328967eb-1df2-4129-9677-1999cdf1813b" width="500px">
     </p>
   </div>
-  주문상태에 따라 주문에 대한 취소/반품 요청을 하거나 구매 확정을 진행하고 후기를 작성하는게 가능합니다.
+  배송상태에 따라 주문에 대한 취소/반품 요청을 하거나 구매 확정을 진행하고 후기를 작성하는게 가능합니다.
   <br><br>
   <strong>결제완료</strong> : 이 단계에서는 주문 취소 요청하는 것이 가능합니다.<br>
   <strong>배송준비중</strong> : 이 단계에서는 주문 취소 요청이 불가합니다.<br>
@@ -703,12 +703,14 @@
 
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/order/orderOneDetail.jsp 중}}$
-    <p>
-      <img src="https://github.com/user-attachments/assets/df4c4439-2d3d-4b51-827d-01d0d5dadd79" width="1000px">
-    </p>
+    <p><img src="https://github.com/user-attachments/assets/df4c4439-2d3d-4b51-827d-01d0d5dadd79" width="1000px"></p>
+    <p><img src="https://github.com/user-attachments/assets/468504a1-b3b1-4f21-94c3-8d39be4b3b67" width="1000px"></p>
   </div>
-  주문 정보중 상품명, 상품금액, 주문상태를 확인할 수 있는 단락입니다.<br>
-  여기서 주문 상태 변경이 가능하며 주문 취소, 반품 요청이 접수된 경우 역시 여기서 요청에 대한 처리가 가능합니다.
+  
+  주문 정보중 상품명, 상품금액, 배송상태를 확인할 수 있는 단락입니다.<br>
+  여기서 배송상태 변경이 가능하며 주문 취소, 반품 요청이 접수된 경우 역시 여기서 요청에 대한 처리가 가능합니다.<br>
+  배송상태 항목의 &lt;select&gt; 태그로 변경할 상태명을 선택하고 배송상태변경을 클릭하면 DB의 tbl_orders(주문 정보) 테이블의 order_status(배송상태) 컬럼을 수정하는 요청을 Controller로 전달합니다<br>
+  배송상태 변경은 주문 상품마다 개별적으로 수행하는 기능이기에 변경 요청이 전달될 때 마다 페이지가 재호출 되는건 관리자의 피로를 유발하기에 요청 처리는 Ajax를 통해 비동기로 처리하였습니다.
   <br><br>
   
 </details>
