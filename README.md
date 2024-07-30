@@ -735,9 +735,35 @@
   <div>
     ${\textsf{\color{LightGray}}}$
     <p>
-      <img src="" width="500px">
+      <img src="https://github.com/user-attachments/assets/bbf3976e-f42f-4b10-9f4e-86b05b409c80" width="1000px">
+    </p>
+    <p>
+      <img src="https://github.com/user-attachments/assets/469531a0-0836-4313-8e73-09b064fac644" width="700px">
     </p>
   </div>
+  고객으로부터 주문 취소 혹은 반품 요청이 발생하면 관리자용 페이지의 주문 상세 페이지에 요청 일자와 취소/반품을 승인하는 버튼이 표시되게 됩니다.
+  <br><br>
+  취소/반품 요청 발생시 DB의 tbl_orders(주문정보) 테이블의 customer_req(구매자 요청) 컬럼에 값이 기입됩니다. (취소 : return / 반품 : return)<br>
+  주문 상세 페이지 view에서는 JSTL Core의 &lt;when&gt; 태그를 이용하여 customer_req 컬럼에 저장된 값이 어떤 값인지를 구별하는 것으로 취소처리/반품처리 버튼을 출력하게 됩니다.
+  <br><br>
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/order/orderOneDetail.jsp 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/59a51c68-0ba8-46f1-88c2-bbb8dc32436b" width="600px">
+      <img src="https://github.com/user-attachments/assets/087ca19f-f277-4590-902a-4bb1f993e4c3" width="500px">
+    </p>
+  </div>
+  취소/반품 버튼을 클릭하면 DB의 tbl_orders(주문정보) 테이블의 order_status(배송상태) 컬럼의 값을 변경하는 요청을 Ajax를 통하여 Controller로 전달합니다.<br>
+  
+  <br><br>
+  
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/java/org/admin/controller/AdminOrderController.java 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/63e119bc-3419-4868-8b13-104006676522" width="700px">
+    </p>
+  </div>
+  
   
 </details>
 <br><br>
