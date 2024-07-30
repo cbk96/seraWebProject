@@ -572,6 +572,7 @@
     <p><img src="https://github.com/user-attachments/assets/ae1a8b08-8d7d-431c-896b-c15ce558f430" width="600px"></p>
   </div>
   마일리지로 결제 금액을 할인하고 결제 수단을 선택하는 단락입니다.<br>
+  마일리지 입력란은 &lt;input type="number"&gt; 태그로 구현되어 있으며 회원이 보유중인 마일리지 값이 &lt;input type="number"&gt; 태그의 placeholder 속성으로 표시되어 최대 얼마의 할인이 가능한지 알 수 있도록 구현했습니다.<br>
   마일리지 입력란은 보유중인 마일리지 보다 큰 액수를 입력하면 보유중인 마일리지 최대 액수로 입력 값이 변경되며<br>
   보유 마일리지가 총 주문 금액 보다 큰 경우 마일리지 최대 금액을 입력하면 총 주문 금액으로 입력 값이 변경되도록 설정하였습니다.
   <br><br>
