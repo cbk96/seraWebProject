@@ -620,7 +620,7 @@
   </div>
   마이페이지중 주문내역을 배송상태별로 보여주는 진행 주문 단락입니다.<br>
   DB의 tbl_orders(주문내역) 테이블에서 회원의 검색한 회원의 주문 정보중 배송상태값을 orderStauts라는 이름으로 전달받아 배송상태별로 정렬시켰습니다.
-  <br><br>
+  <br><br><br>
 
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp 중}}$
@@ -631,7 +631,7 @@
   같은 주문번호에 해당하는 주문 목록을 묶어서 출력하기 위해 DB에서 주문번호를 먼저 검색하여 주문번호 목록을 ovoNumber 변수에 저장합니다.<br>
   ovoNumber 변수에 저장된 주문번호를 이용하여 주문번호 별로 검색된 주문 상세 정보들을 allOrders 변수에 저장합니다.<br>
   allOrders를 마이페이지 view로 전달하여 같은 주문번호에 속하는 주문번호들을 묶어서 출력합니다.
-  <br><br>
+  <br><br><br>
 
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp 중}}$
