@@ -473,7 +473,7 @@
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/goodsOne.jsp}}$
     <p><img src="https://github.com/user-attachments/assets/c0f8ea4d-4d8c-4ac0-a342-44bca4df87b2" width="500px"></p>
-    <p><img src="https://github.com/user-attachments/assets/5674f910-4aec-497f-bcaf-d1b55437d79d" width="1000px"></p>
+    <p><img src="https://github.com/user-attachments/assets/5674f910-4aec-497f-bcaf-d1b55437d79d" width="700px"></p>
     <p><img src="https://github.com/user-attachments/assets/55152f42-be8d-4a9b-acc3-4da6c6ef54e4" width="500px"></p>
     <p><img src="https://github.com/user-attachments/assets/d156ce03-7549-4c57-8c86-3d362dbb47e6" width="500px"></p>
   </div>
