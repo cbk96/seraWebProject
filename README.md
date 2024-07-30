@@ -484,6 +484,19 @@
   <h4>- 상품 구매 방식 선택</h4>
   BUY IT NOW 버튼을 클릭하면 주문서 작성 페이지를 호출하고<br>
   ADD TO CART 버튼을 클릭하면 상세 페이지에 표시중인 상품 정보를 DB의 tbl_cart(장바구니) 테이블에 저장합니다.
+  <br><br>
+
+  <h4>- 장바구니 담기</h4>
+  <div>
+    ${\textsf{\color{LightGray}}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/430547ed-a624-4ca9-9d27-733d7bd85c4d" width="500px">
+    </p>
+  </div>
+  상품 상세 페이지에서 ADD TO CART 버튼을 클릭하여 장바구니 페이지를 호출하면 상품 정보와 회원 로그인 중인 고객의 id 정보를 DB의 tbl_cart(장바구니) 테이블에 저장합니다.<br>
+  고객의 회원 id는 장바구니 테이블에 등록된 회원간의 장바구니 정보를 구별하는데 사용됩니다.
+  <br><br>
+  
   
 </details>
 <br><br>
