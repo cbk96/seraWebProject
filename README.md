@@ -650,7 +650,7 @@
 
   <h4>- 구매 내역 조회 (관리자)</h4>
   <div>
-    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/order/orderList.jsp}}$
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/order/orderList.jsp 중}}$
     <p>
       <img src="https://github.com/user-attachments/assets/39e5c41b-57b2-429c-a870-e615ac67a85f" width="700px">
     </p>
@@ -665,7 +665,51 @@
   DB의 tbl_orders(주문 정보) 테이블에서 주문 정보를 검색하여 반환된 정보를 OrverVO(ValueObject) 배열 변수에 저장합니다.<br>
   저장된 주문 정보들을 orderList라는 이름으로 Controller에서 주문 목록 페이지 view로 전달하여 화면에 출력합니다.
   <br><br>   
-  
+
+  <h4>- 주문자 유형 구별 표시</h4>
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/order/orderList.jsp 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/fd9ecb1b-0595-4e8d-bce8-106b61e1e3d7" width="500px">
+    </p>
+  </div>
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/order/orderList.jsp 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/aa2afbaf-d427-4b51-99dd-1f9424c904cc" width="500px">
+    </p>
+  </div>
+  주문한 고객이 회원 로그인한 고객인지 비회원 고객인지의 여부를 구별하여 표기합니다.
+  <br><br>
+
+   <h4>- 주문 상세 페이지 (관리자)</h4>
+   주문 목록 페이지에서 상세정보 버튼을 클릭하면 해당 주문의 상세 정보를 열람할 수 있는 주문 상세 페이지를 호출합니다.<br> 
+   <div>
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/order/orderOneDetail.jsp 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/9f1f391a-4916-4e02-bbbd-620b7b93f8c9" width="500px">
+    </p>
+  </div>
+  주문 정보중 결제 정보를 확인할 수 있는 단락입니다. 마일리지 사용 내역이 있는 경우 마일리지 사용을 취소하고 마일리지를 복원시키는게 가능합니다.
+  <br><br>
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/order/orderOneDetail.jsp 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/f337dc16-138c-49bd-be50-82a78707e944" width="500px">
+    </p>
+  </div>
+  주문 정보중 배송지 정보를 확인할 수 있는 단락입니다. 여기서 주문자명과 배송지 주소를 변경하는게 가능합니다.
+  <br><br>
+
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/order/orderOneDetail.jsp 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/df4c4439-2d3d-4b51-827d-01d0d5dadd79" width="500px">
+    </p>
+  </div>
+  주문 정보중 상품명, 상품금액, 주문상태를 확인할 수 있는 단락입니다.<br>
+  여기서 주문 상태 변경이 가능하며 주문 취소, 반품 요청이 접수된 경우 역시 여기서 요청에 대한 처리가 가능합니다.
+  <br><br>
   
 </details>
 <br><br>
