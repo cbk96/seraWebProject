@@ -431,6 +431,12 @@ public class GoodsController {
 		
 		return "/goods/orderForm";
 	}
+
+	//잘못된 주문서 접근
+	@RequestMapping(value="/orderConfirm", method=RequestMethod.GET)
+	public String wrongOrderConfirm() {
+		return "/goods/orderComplete";
+	}
 	
 	//주문서 작성
 	@RequestMapping(value="/orderConfirm", method=RequestMethod.POST)
