@@ -464,7 +464,8 @@
       <img src="https://github.com/user-attachments/assets/fdf43819-9786-448a-86cf-2f452549abfc" width="700px">
     </p>
   </div>
-  상품 상세 페이지입니다. Contorller로 상세 페이지 호출 요청이 전달되면 호출과 함께 전달받은 상품 일련번호 값으로 DB의 tbl_goods(상품 정보) 테이블에서 일련번호에 해당하는 상품 정보를 검색하여 
+  상품 상세 페이지입니다. <br> 
+  Contorller로 상세 페이지 호출 요청이 전달되면 요청과 함께 전달받은 상품 일련번호 값으로 DB의 tbl_goods(상품 정보) 테이블에서 일련번호에 해당하는 상품 정보를 검색하여 
   ValueObject GoodsVO 클래스형 변수 gvo에 값이 저장되어 상품 페이지 view에 goodsInfo로 전달됩니다.
   <br><br>
   
