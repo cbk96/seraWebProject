@@ -717,7 +717,7 @@
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp 중}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/50189ac2-f29d-4c1b-84f6-d47d24e5dbd2" width="700px">
+      <img src="https://github.com/user-attachments/assets/50189ac2-f29d-4c1b-84f6-d47d24e5dbd2" width="1000px">
     </p>
   </div>
   <strong>결제완료</strong> 상태의 주문은 주문 취소 요청하는 것이 가능합니다.<br>
