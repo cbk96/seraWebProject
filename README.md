@@ -1,4 +1,4 @@
-# <u>Sera Online Shopping Mall</u>
+![image](https://github.com/user-attachments/assets/44c1da1d-a0dd-440c-8832-a0939a7a70fd)# <u>Sera Online Shopping Mall</u>
 스프링 프레임워크와 MariaDB로 구현한 뷰티 상품 온라인 쇼핑몰 프로젝트입니다.
 <br><br>
 
@@ -510,7 +510,7 @@
 
   <h4>- 장바구니에서 구매 수량 수정</h4>
   <div>
-    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/cart.jsp}}$
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/cart.jsp 중}}$
     <p>
       <img src="https://github.com/user-attachments/assets/34cb9454-da6d-4c11-bf02-89e9948f3aa3" width="300px">
     </p>
@@ -521,6 +521,23 @@
   </div>
   장바구니에서도 구매 수량 변경을 가능하게 구현 했습니다. <br> 
   변경된 구매 수량이 DB에 반영될 때 마다 페이지 재호출이 반복되면 사용자에게 피로를 유발하기에 DB에 반영하는 작업 호출은 Ajax를 통하여 비동기로 처리하였습니다.
+  이 때 역시 상품의 재고량 이상의 구매 수량을 입력하는것은 불가능하도록 설정했습니다.
+  <br><br>
+
+  <h4>- 장바구니에서 주문서 페이지 호출</h4>
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/cart.jsp 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/3d498f8e-2d05-45a6-877b-264539014ea4" width="500px">
+    </p>
+  </div>
+  장바구니 페이지에서 전체구매 버튼을 클릭하면 Controller를 통해 주문서 페이지를 호출하는데<br>
+  이 때 로그인 중인 회원의 id를 통해 DB의 tbl_cart(장바구니) 테이블에서 상품 정보들을 검색하여 CartVO(ValueObject) 배열 변수에 저장합니다.<br>
+  저장된 상품 정보는 orderInfo라는 이름으로 주문서 페이지 view에 전달됩니다.
+  <br><br>
+  그와 동시에 DB의 tbl_member(회원) 테이블에서 회원의 마일리지 정보를 검색하여 회원 로그인 세션에 저장시킵니다.
+  <br><br>
+  
 
   
 </details>
