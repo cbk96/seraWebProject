@@ -569,7 +569,7 @@
       <img src="https://github.com/user-attachments/assets/d06e77f5-7c9c-4890-8933-d09b5597d7b9" width="330px">
       <img src="https://github.com/user-attachments/assets/f81dc08c-255c-4fef-9c77-04bf5c167fd3" width="330px">
     </p>
-    <p><img src="https://github.com/user-attachments/assets/ae1a8b08-8d7d-431c-896b-c15ce558f430" width="500px"></p>
+    <p><img src="https://github.com/user-attachments/assets/ae1a8b08-8d7d-431c-896b-c15ce558f430" width="600px"></p>
   </div>
   
   
