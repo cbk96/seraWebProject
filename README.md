@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/44c1da1d-a0dd-440c-8832-a0939a7a70fd)# <u>Sera Online Shopping Mall</u>
+# <u>Sera Online Shopping Mall</u>
 스프링 프레임워크와 MariaDB로 구현한 뷰티 상품 온라인 쇼핑몰 프로젝트입니다.
 <br><br>
 
@@ -528,16 +528,22 @@
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/cart.jsp 중}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/3d498f8e-2d05-45a6-877b-264539014ea4" width="500px">
+      <img src="https://github.com/user-attachments/assets/3d498f8e-2d05-45a6-877b-264539014ea4" width="600px">
     </p>
   </div>
   장바구니 페이지에서 전체구매 버튼을 클릭하면 Controller를 통해 주문서 페이지를 호출하는데<br>
   이 때 로그인 중인 회원의 id를 통해 DB의 tbl_cart(장바구니) 테이블에서 상품 정보들을 검색하여 CartVO(ValueObject) 배열 변수에 저장합니다.<br>
-  저장된 상품 정보는 orderInfo라는 이름으로 주문서 페이지 view에 전달됩니다.
-  <br><br>
+  저장된 상품 정보는 orderInfo라는 이름으로 주문서 페이지 view에 전달됩니다.<br><br>
   그와 동시에 DB의 tbl_member(회원) 테이블에서 회원의 마일리지 정보를 검색하여 회원 로그인 세션에 저장시킵니다.
   <br><br>
-  
+
+  <h4>- 주문서 작성</h4>
+  <div>
+    ${\textsf{\color{LightGray}}}$
+    <p>
+      <img src="" width="500px">
+    </p>
+  </div>
 
   
 </details>
