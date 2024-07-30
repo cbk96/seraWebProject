@@ -152,7 +152,7 @@
 	 		<ul class="input-layout input-layout-wide input-layout-order-info" >
 	 			<li><h3>결제정보</h3></li>
 	 			<li>
-	 				<label><span></span>마일리지 적용</label>
+	 				<label><span></span>마일리지</label>
 	 				<c:choose>
 	 					<c:when test="${loginMember!=null}">
 	 						<input type="number" name="discount_price" min="0" max="${loginMember.mileage}"placeholder="최대  ${loginMember.mileage}원 할인 가능" class="input-default input-bottom-border">
