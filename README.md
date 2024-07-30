@@ -119,7 +119,7 @@
 <br> 
 
 ## 📍 <u>핵심 기능</u>
-온라인 쇼핑몰 프로젝트인 만큼 여러 기능 가운데 가장 신경써서 구현한 기능은 관리자의 상품 등록을 시작으로 고객의 구매까지 이어지는 상품 관리 기능입니다.
+온라인 쇼핑몰 프로젝트인 만큼 여러 기능 가운데 가장 신경써서 구현한 기능은 관리자의 상품 등록을 시작으로 고객의 구매까지 이어지는 상품&주문 관리 기능입니다.
 
 <details>
   <summary><h3>관리자용 페이지 - 상품 등록</h3></summary>
@@ -612,13 +612,23 @@
 <details>
   <summary><h3>주문 관리</h3></summary>
   <br>
-  <h4>- 주문서 작성(주문 결과)</h4>
+  <h4>- 구매 내역 조회 (고객)()</h4>
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp}}$
+    <p><img src="https://github.com/user-attachments/assets/71d18ef0-43b9-4cb2-84b8-e8f72205c65d" width="500px"> </p>
+    <p><img src="https://github.com/user-attachments/assets/e28344a4-3bcd-4938-b93c-16c60b4b9652" width="300px"> </p>
+  </div>
+  마이페이지중 주문내역을 주문 상태별로 보여주는 진행 주문 단락입니다.<br>
+  DB의 tbl_orders(주문내역) 테이블에서 회원의 검색한 회원의 주문 정보중 주문 상태값을 orderStauts라는 이름으로 전달받아 주문 상태별로 정렬시켰습니다.
+  <br><br>
+
   <div>
     ${\textsf{\color{LightGray}}}$
     <p>
-      <img src="" width="500px">
+      <img src="https://github.com/user-attachments/assets/a055c1f2-df9d-4b83-803d-9bf53cec8505" width="500px">
     </p>
   </div>
+  
   
 </details>
 <br><br>
