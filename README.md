@@ -576,8 +576,18 @@
   마일리지 입력란은 보유중인 마일리지 보다 큰 액수를 입력하면 보유중인 마일리지 최대 액수로 입력 값이 변경되며<br>
   보유 마일리지가 총 주문 금액 보다 큰 경우 마일리지 최대 금액을 입력하면 총 주문 금액으로 입력 값이 변경되도록 설정하였습니다.
   <br><br>
-  
-  
+
+  <h4>- 주문서 작성(총 결제 금액 확인)</h4>
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/orderForm.jsp 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/5b4c6904-5167-4c54-b5e9-48b84357cb53" width="500px">
+      <img src="https://github.com/user-attachments/assets/3a874c42-6689-4d83-a1ce-b815ed3abf96" width="500px">
+    </p>
+  </div>
+  결제할 총 금액을 안내하는 결제 금액란입니다.<br>
+  상품 목록에 표시된 금액을 모두 합산한 후 마일리지 사용이 이루어진 경우 사용액 만큼 차감하여 표시하도록 구현했습니다.
+  <br><br>
   
 </details>
 <br><br>
