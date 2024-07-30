@@ -472,11 +472,14 @@
   <h4>- 상품 재고량에 따른 상품 구매량 제한</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/goodsOne.jsp}}$
-    <p><img src="https://github.com/user-attachments/assets/d3bd2702-18d3-4daa-86cd-d29357385671" width="500px"></p>
-    <p><img src="https://github.com/user-attachments/assets/5fa221e0-6a35-44e7-9fd6-91b9dc15dcc8" width="1000px"></p>
-    <p><img src="https://github.com/user-attachments/assets/3a90d636-9344-4473-a503-5015d76b2a43" width="500px"></p>
+    <p><img src="https://github.com/user-attachments/assets/c0f8ea4d-4d8c-4ac0-a342-44bca4df87b2" width="500px"></p>
+    <p><img src="https://github.com/user-attachments/assets/5674f910-4aec-497f-bcaf-d1b55437d79d" width="1000px"></p>
+    <p><img src="https://github.com/user-attachments/assets/708ef86c-4e00-4a8f-8d52-de3053acfedc" width="500px"></p>
     <p><img src="https://github.com/user-attachments/assets/d156ce03-7549-4c57-8c86-3d362dbb47e6" width="500px"></p>
   </div>
+  Contorller에서 전달받은 상품 정보(goodsInfo)의 속성 amount는 상품의 재고량을 저장한 값으로 구매 수량을 입력하는 &lt;input type="number"&gt; 태그에서 max 속성의 값으로 사용됩니다.<br>
+  
+  <br><br>
   
   
 </details>
