@@ -581,7 +581,7 @@
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/orderForm.jsp 중}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/5b4c6904-5167-4c54-b5e9-48b84357cb53" width="500px">
+      <img src="https://github.com/user-attachments/assets/0fd06d88-3c41-4ce0-8d6a-e2ec5103eaf5" width="500px">
       <img src="https://github.com/user-attachments/assets/3a874c42-6689-4d83-a1ce-b815ed3abf96" width="500px">
     </p>
   </div>
