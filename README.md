@@ -683,7 +683,8 @@
   <br><br>
 
    <h4>- 주문 상세 페이지 (관리자)</h4>
-   주문 목록 페이지에서 상세정보 버튼을 클릭하면 해당 주문의 상세 정보를 열람할 수 있는 주문 상세 페이지를 호출합니다.<br> 
+   주문 목록 페이지에서 상세정보 버튼을 클릭하면 해당 주문의 상세 정보를 열람할 수 있는 주문 상세 페이지를 호출합니다.
+   <br><br> 
    <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/order/orderOneDetail.jsp 중}}$
     <p>
