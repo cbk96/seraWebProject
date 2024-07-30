@@ -508,7 +508,7 @@
   구매 수량 값을 추가시킬 때 기존에 담긴 구매 수량과 추가로 담는 구매 수량의 합산 값이 상품의 재고량을 초과하는 경우 구매 수량 값을 재고량 값으로 UPDATE 시킵니다.
   <br><br>
 
-  <h4>- 장바구니에서 구매 수량 수정</h4>
+  <h4>- 장바구니에서 구매 수량 변경</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/cart.jsp 중}}$
     <p>
