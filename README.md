@@ -496,7 +496,18 @@
   상품 상세 페이지에서 ADD TO CART 버튼을 클릭하여 장바구니 페이지를 호출하면 상품 정보와 회원 로그인 중인 고객의 id 정보를 DB의 tbl_cart(장바구니) 테이블에 저장합니다.<br>
   고객의 회원 id는 장바구니 테이블에 등록된 회원간의 장바구니 정보를 구별하는데 사용됩니다.
   <br><br>
-  
+
+  <h4>- 장바구니에 이미 담긴 상품을 추가로 담기</h4>
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/java/org/sera/controller/GoodsController.java 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/8ebfdfb9-09f8-4909-ac41-bc014a7272d6" width="500px">
+    </p>
+  </div>
+  장바구니에 이미 등록되어 있는 상품을 추가로 담는 경우 상품 정보를 추가로 INSERT 시키는것이 아닌 기존에 담긴 동일 상품의 정보중 구매 수량 값만을 UPDATE 시킵니다.<br>
+  구매 수량 값을 추가시킬 때 기존에 담긴 구매 수량과 추가로 담는 구매 수량의 합산 값이 상품의 재고량을 초과하는 경우 구매 수량 값을 재고량 값으로 UPDATE 시킵니다.
+  <br><br>
+
   
 </details>
 <br><br>
