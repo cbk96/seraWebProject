@@ -614,7 +614,7 @@
   <br>
   <h4>- 구매 내역 조회 (고객)()</h4>
   <div>
-    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp}}$
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp 중}}$
     <p><img src="https://github.com/user-attachments/assets/71d18ef0-43b9-4cb2-84b8-e8f72205c65d" width="500px"> </p>
     <p><img src="https://github.com/user-attachments/assets/e28344a4-3bcd-4938-b93c-16c60b4b9652" width="300px"> </p>
   </div>
@@ -623,11 +623,17 @@
   <br><br>
 
   <div>
-    ${\textsf{\color{LightGray}}}$
-    <p>
-      <img src="https://github.com/user-attachments/assets/a055c1f2-df9d-4b83-803d-9bf53cec8505" width="500px">
-    </p>
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp 중}}$
+    <p><img src="https://github.com/user-attachments/assets/c25e85ff-23ca-4ae8-abc5-8666c62d5a66" width="500px"></p>
+    <p><img src="https://github.com/user-attachments/assets/379c1cae-ac44-4791-83fc-2d7bcdc1326c" width="500px"></p>
   </div>
+  회원의 주문 목록을 나열한 단락입니다.<br>
+  같은 주문번호에 해당하는 주문 목록을 묶어서 출력하기 위해 DB에서 주문번호를 먼저 검색하여 주문번호 목록을 ovoNumber 변수에 저장합니다.<br>
+  ovoNumber 변수에 저장된 주문번호를 이용하여 주문번호 별로 검색된 주문 상세 정보들을 allOrders 변수에 저장합니다.<br>
+  allOrders를 마이페이지 view로 전달하여 같은 주문번호에 속하는 주문번호들을 묶어서 출력합니다.
+  <br><br>
+
+  
   
   
 </details>
