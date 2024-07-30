@@ -754,7 +754,7 @@
     </p>
   </div>
   취소/반품 버튼을 클릭하면 DB의 tbl_orders(주문정보) 테이블의 order_status(배송상태) 컬럼의 값을 변경하는 요청을 Ajax를 통하여 Controller로 전달합니다.<br>
-  
+  이때 Contorller에 전달되는 JSON 변수의 requestType의 값이 취소 요청이면 "취소" 값으로, 반품 요청이면 "반품" 값으로 전달됩니다.
   <br><br>
   
   <div>
@@ -763,6 +763,10 @@
       <img src="https://github.com/user-attachments/assets/63e119bc-3419-4868-8b13-104006676522" width="700px">
     </p>
   </div>
+  주문 상세 페이지 view에서 전달 받은 값 중 <strong>order_number</strong> 값으로 DB의 주문 정보 테이블에서 어떤 주문의 배송상태를 변경할 것인지를 선택하고<br>
+  <strong>goods_id</strong> 값으로 주문에서 어떤 상품의 배송상태를 변경할 것인지를 선택하고 <br>
+  <strong>requestType</strong> 값으로 어떤 상태로 변경할 것인지를 지정합니다.
+  <br><br>
   
   
 </details>
