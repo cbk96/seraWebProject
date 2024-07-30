@@ -587,6 +587,28 @@
   상품 목록에 표시된 금액을 모두 합산한 후 마일리지 사용이 이루어진 경우 사용액 만큼 차감하여 표시하도록 구현했습니다.
   <br><br>
   
+  <h4>- 주문서 작성(주문 결과)</h4>
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/orderForm.jsp 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/18d9923b-158a-409a-85b9-80cd5798cb61" width="500px">
+      <img src="https://github.com/user-attachments/assets/70c60584-0642-4b8d-83be-600e2108467b" width="500px">
+    </p>
+    <p>
+      <img src="https://github.com/user-attachments/assets/7f3bf626-927e-43cb-9537-3e76590463a4" width="500px">
+      <img src="https://github.com/user-attachments/assets/fde39a40-e6d0-437c-a4bc-4cec9dc2f426" width="500px">
+    </p>
+  </div>
+  주문서 작성 완료 후 결제 버튼을 누르면 결제 요청에 대한 처리 결과를 보여주는 주문 결과 페이지를 호출하게 됩니다.<br>
+  결제 처리 결과에 따라 다른 메세지를 출력하게 구현했습니다.<br>
+  <strong>결제가 정상적으로 이루어진 경우 </strong> : "주문이 완료 되었습니다." 메세지를 출력합니다.<br>
+  <strong>비정상적인 경로로 주문 결과 페이지를 호출한 경우 </strong> : "잘못된 접근입니다." 메세지를 출력합니다.<br>
+  <strong>주문 요청한 수량 보다 재고가 적은 경우 </strong> : "요청 구매 수량보다 재고 수량이 적어 구매가 불가합니다." 메세지를 출력합니다.<br> 주문이 여러 사용자에게서 동시다발적으로 이루어질 경우 주문 처리 도중에 다른 주문자에 의해 재고가 차감되는 경우를 대비한 메세지입니다. 
+  <strong>주문한 상품의 정보를 찾을 수 없는 경우 </strong> : "상품 정보가 존재하지 않아 주문이 불가합니다." 메세지를 출력합니다.<br> 고객의 주문 처리 도중 관리자가 상품을 삭제한 경우를 대비한 메세지입니다.
+  <br><br>
+  
+  
+  
 </details>
 <br><br>
 
