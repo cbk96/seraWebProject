@@ -704,7 +704,7 @@
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/order/orderOneDetail.jsp 중}}$
     <p><img src="https://github.com/user-attachments/assets/df4c4439-2d3d-4b51-827d-01d0d5dadd79" width="1000px"></p>
-    <p><img src="https://github.com/user-attachments/assets/468504a1-b3b1-4f21-94c3-8d39be4b3b67" width="1000px"></p>
+    <p><img src="https://github.com/user-attachments/assets/468504a1-b3b1-4f21-94c3-8d39be4b3b67" width="600px"></p>
   </div>
   
   주문 정보중 상품명, 상품금액, 배송상태를 확인할 수 있는 단락입니다.<br><br>
@@ -717,7 +717,7 @@
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp 중}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/50189ac2-f29d-4c1b-84f6-d47d24e5dbd2" width="500px">
+      <img src="https://github.com/user-attachments/assets/50189ac2-f29d-4c1b-84f6-d47d24e5dbd2" width="700px">
     </p>
   </div>
   <strong>결제완료</strong> 상태의 주문은 주문 취소 요청하는 것이 가능합니다.<br>
