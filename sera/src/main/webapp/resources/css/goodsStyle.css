@@ -168,7 +168,7 @@
 	.goods-category-wrap>p:nth-child(1){font-size:33px;}
 	.goods-category-wrap>div:nth-child(2)>p>a{font-size:20px;}
 	
-	.goods-list-cart>ul{padding:50px 69px;}
+	.goods-list-cart>ul{padding:50px 68px;}
 	.goods-list-cart>ul>li{margin:20px; width:200px;}
 	.goods-list-cart>ul>li>a>span:nth-child(1){height:200px;}
 	.goods-list-cart>ul>li>a>span:nth-child(2){min-height:75px;}
