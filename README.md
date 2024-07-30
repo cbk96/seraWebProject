@@ -512,7 +512,7 @@
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/cart.jsp}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/34cb9454-da6d-4c11-bf02-89e9948f3aa3" width="500px">
+      <img src="https://github.com/user-attachments/assets/34cb9454-da6d-4c11-bf02-89e9948f3aa3" width="300px">
     </p>
      <p>
       <img src="https://github.com/user-attachments/assets/4d8b3c0d-27dd-4319-9d8b-ed6d2380f4b7" width="700px">
