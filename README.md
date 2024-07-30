@@ -488,7 +488,7 @@
 
   <h4>- 장바구니 담기</h4>
   <div>
-    ${\textsf{\color{LightGray}}}$
+    ${\textsf{\color{LightGray}/sera/src/main/java/org/sera/controller/GoodsController.java 중}}$
     <p>
       <img src="https://github.com/user-attachments/assets/430547ed-a624-4ca9-9d27-733d7bd85c4d" width="500px">
     </p>
