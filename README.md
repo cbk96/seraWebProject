@@ -33,7 +33,7 @@ FE/BE 최병국
 *  MariaDB v10.4.33
 *  Toad for MySQL 8.0 Freeware
 ```
-<br><br>
+<br>
 
 ## 🗃️ <u>구현 기능</u>
 ### 🛒 고객용 페이지
