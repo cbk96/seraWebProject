@@ -910,6 +910,19 @@
 ## 🖇️ <u>반응형 웹 구현</u>
 <img src="https://github.com/user-attachments/assets/c8180825-0298-467c-b0e5-8669ebe5e8d4" width="1000px">
 여러 디스플레이 환경에 대응하여 구동 되도록 반응형 웹으로 제작하였습니다.
+<br><br>
+<div>
+    ${\textsf{\color{LightGray}데스크탑 환겨에서의 메인 메뉴}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/1f4cdac0-b8dd-4446-9ec7-87c70b020de0" width="800px">
+    </p>
+  </div>
+  <div>
+    ${\textsf{\color{LightGray}모바일 환경에서의 메인 메뉴}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/a749a615-dc2a-4cc0-9173-b125f4173c8e" width="500px">
+    </p>
+  </div>
 <br><br><br>
 
 
