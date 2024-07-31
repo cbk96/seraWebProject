@@ -782,13 +782,13 @@
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/order/orderOneDetail.jsp 중}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/b7577830-ea67-408a-b41a-8519a051dca4" width="1000px">
+      <img src="https://github.com/user-attachments/assets/868d220e-f1f7-46c3-af20-98ff39851e77" width="1000px">
     </p>
   </div>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp 중}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/e21c2b3a-551f-48da-8187-68e8f7c31916" width="1000px">
+      <img src="https://github.com/user-attachments/assets/6c1ea5f0-5dc3-4fb2-8d59-353c81bfbdc4" width="1000px">
     </p>
   </div>
   관리자의 취소/반품 처리가 완료되면 관리자용 페이지와 고객용 페이지로 배송상태가 변경 되었음을 확인할 수 있습니다.
