@@ -571,9 +571,13 @@
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/orderForm.jsp 중}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/592bfb79-6e51-48aa-bfae-9f8669806f80" width="330px">
-      <img src="https://github.com/user-attachments/assets/0c33809e-53ce-44ea-89fb-976575b154b1" width="330px">
-      <img src="https://github.com/user-attachments/assets/11107087-837b-40a2-aa4c-7f698d307505" width="330px">
+      <img src="https://github.com/user-attachments/assets/592bfb79-6e51-48aa-bfae-9f8669806f80" width="500px">
+    </p>
+    <p>
+      <img src="https://github.com/user-attachments/assets/0c33809e-53ce-44ea-89fb-976575b154b1" width="500px">
+    </p>
+    <p>
+      <img src="https://github.com/user-attachments/assets/11107087-837b-40a2-aa4c-7f698d307505" width="500px">
     </p>
     <p><img src="https://github.com/user-attachments/assets/ae1a8b08-8d7d-431c-896b-c15ce558f430" width="600px"></p>
   </div>
