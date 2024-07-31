@@ -138,7 +138,7 @@ PASSWORD : 1234
 
 <details>
   <summary><h3>관리자용 페이지 - 상품 등록</h3></summary>
-  <br>
+  <br><br>
 
   > <h4>상품 정보 입력폼</h4>
   <div>
