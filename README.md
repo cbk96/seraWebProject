@@ -790,7 +790,7 @@
   관리자의 취소/반품 처리가 완료되면 관리자용 페이지와 고객용 페이지로 배송상태가 변경 되었음을 확인할 수 있습니다.
   <br><br><br>
 
-  <h4>- 마일리지 적립</h4>
+  <h4>- 마일리지 적립 </h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp 중}}$
     <p>
@@ -802,9 +802,29 @@
     <p>
       <img src="https://github.com/user-attachments/assets/9e23f173-7455-4041-a44a-2f12a2213267" width="1000px">
     </p>
+    <p>
+      <img src="https://github.com/user-attachments/assets/1af5a967-663e-4605-9ea4-373587c47137" width="700px">
+    </p>
   </div>
   배송 상태가 배송완료인 주문건은 고객용 마이페이지에서 구매 확정 처리가 가능하며 구매 확정처리되면 후기작성 버튼이 표시됩니다.<br>
-  <br><br>
+  구매확정 버튼을 클릭하면 Ajax를 통해 Controller로 구매확정 요청을 전달하게 됩니다.
+  <br><br><br>
+
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/java/org/sera/controller/GoodsController.java 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/8f7db1a6-0735-4ad9-8df0-99e373a9a04f" width="700px">
+    </p>
+    <div>
+    ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/goodsMapper.xml}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/d983f570-af54-4f9f-86a6-3a00b8a96507" width="500px">
+    </p>
+  </div>
+  </div>
+  Controller로 구매확정 요청이 전달되면 함께 전달된 주문 정보를 통해 배송상태를 구매확정으로 변경하고
+  
+  
   
 </details>
 <br><br>
