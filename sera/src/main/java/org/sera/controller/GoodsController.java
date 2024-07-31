@@ -639,27 +639,25 @@ public class GoodsController {
 				
 				if(requestResult>=1) {
 					requestMsg = "success";
-				}
-				
-				//마일리지 적립
-				goodsService.mileageCountUp(ovo);
-				
-				//갱신된 마일리지 정보를 로그인 session에 반영
-				List<MileageVO> mileageChk = memberService.getMileage(mvo.getUser_id());
-				int resultMileage = 0;
-				
-				if(mileageChk!=null) {
-					for(int i=0; i<mileageChk.size(); i++) {
-						resultMileage += mileageChk.get(i).getAccumulate_price();
+
+					//마일리지 적립
+					goodsService.mileageCountUp(ovo);
+					
+					//갱신된 마일리지 정보를 로그인 session에 반영
+					List<MileageVO> mileageChk = memberService.getMileage(mvo.getUser_id());
+					int resultMileage = 0;
+					
+					if(mileageChk!=null) {
+						for(int i=0; i<mileageChk.size(); i++) {
+							resultMileage += mileageChk.get(i).getAccumulate_price();
+						}
 					}
+					
+					mvo.setMileage(resultMileage);
+					session.setAttribute("loginMember", mvo);
 				}
-				
-				mvo.setMileage(resultMileage);
-				session.setAttribute("loginMember", mvo);
-				
 			}
 		}
-		
 		return requestMsg;
 	}
 	
