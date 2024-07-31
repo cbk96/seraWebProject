@@ -131,7 +131,7 @@
   <summary><h3>관리자용 페이지 - 상품 등록</h3></summary>
   <br>
 
-  > <h4>- 상품 정보 입력폼</h4>
+  > <h4>상품 정보 입력폼</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsRegist.jsp 중}}$
     <p>
@@ -144,7 +144,7 @@
   상품 관리에 필요한 일련의 정보들을 Controller를 통해 DB로 전달하기 위한 입력폼을 구성했습니다.
   <br><br>
 
-  <h4>- 상품 매입가에 따른 판매가 최소치 설정</h4>
+  > <h4>상품 매입가에 따른 판매가 최소치 설정</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsRegist.jsp 중}}$
     <p>
@@ -158,7 +158,7 @@
   입력된 값을 min값으로 변경되도록 구현하는 코드를 추가로 작성했습니다.
   <br><br>
 
-  <h4>- 상품 섬네일 이미지 업로드</h4>
+  > <h4>상품 섬네일 이미지 업로드</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsRegist.jsp 중}}$
     <p>
@@ -192,7 +192,7 @@
   이때 AdminGoodsController.java에서 goodsRegist.jsp로 전달된 <strong>등록일자 + 로그인한 관리자 id + 현재 상품 이미지 디렉토리 내 파일 수</strong> 조합으로 된 문자열 값을 이미지 파일이 업로드 될 디렉토리명으로 생성하기 위해 ajax url 요청으로 문자열 값을 itemName 파라미터로 전달했습니다.
   <br><br>
 
-  <h4>- 상품 상세 정보 (이미지 + 텍스트) 업로드</h4>
+  > <h4>상품 상세 정보 (이미지 + 텍스트) 업로드</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsRegist.jsp 중}}$
     <p>
@@ -222,7 +222,7 @@
   <summary><h3>관리자용 페이지 - 상품 검색</h3></summary>
   <br>
 
-  <h4>- 상품 검색폼</h4>
+  > <h4>상품 검색폼</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsList.jsp 중}}$
     <p>
@@ -239,7 +239,7 @@
   <strong>&lt;input type="radio"&gt;</strong> 태그로는 검색 조건을 선택적으로 입력 받으며 입력 받은 값은 SELECT 쿼리문에서 WHERE 절의 비교 조건값으로 사용됩니다.<br>
   <br><br>
 
-  <h4>- 분류별 상품 검색</h4>
+  > <h4>분류별 상품 검색</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/adminGoodsMapper.xml 중}}$
     <p>
@@ -264,7 +264,7 @@
   LIKE 술어로 조회하기에 선택한 분류(컬럼)에서 입력한 문자열 값과 일부 일치하는 상품들이 검색됩니다.
   <br><br>
 
-  <h4>- 카테고리별 상품 검색</h4> 
+  > <h4>카테고리별 상품 검색</h4> 
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsList.jsp 중}}$
     <p>
@@ -275,7 +275,7 @@
   상품 검색시 카테고리별 상품 검색이 가능하도록 구현하였습니다.
   <br><br>
 
-  <h4>- 데이터베이스의 카테고리 테이블을 참조하여 검색</h4>
+  > <h4>데이터베이스의 카테고리 테이블을 참조하여 검색</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/adminGoodsMapper.xml 중}}$
     <p>
@@ -295,7 +295,7 @@
   카테고리의 대분류명, 중분류명 값은 카테고리 테이블에 저장되어 있습니다.</strong>
   <br><br>
 
-  <h4>- 관리자 권한에 따라 선택 가능한 카테고리 항목</h4>
+  > <h4>관리자 권한에 따라 선택 가능한 카테고리 항목</h4>
   <div>
     ${\textsf{\color{LightGray}최고 권한의 관리자로 로그인한 경우}}$
       <p><img src="https://github.com/user-attachments/assets/c7b89105-3614-413e-8def-9327f805c5e4" width="500px"></p>
@@ -316,7 +316,7 @@
   카테고리 항목에서 &lt;select&gt; 태그 내의 선택값은 JSTL Core의 &lt;if&gt; 태그를 사용하여 관리자의 부서에 해당되는 카테고리만 표기 되도록 구현했습니다.
   <br><br>
 
-  <h4>- 관리자 권한에 따라 검색되는 상품 필터링</h4>
+  > <h4>관리자 권한에 따라 검색되는 상품 필터링</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/adminGoodsMapper.xml 중}}$
     <p>
@@ -335,7 +335,7 @@
   (최고 관리자의 경우 depart로 all 값이 전달되어 이 경우 and cate.depart = #{depart} 쿼리문을 실행하지 않습니다.)
   <br><br>
 
-  <h4>- 입력된 카테고리 값에 따른 상품 검색</h4>
+  > <h4>입력된 카테고리 값에 따른 상품 검색</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/adminGoodsMapper.xml 중}}$
     <p>
@@ -360,7 +360,7 @@
   <strong>* 카테고리 select 항목의 ”전체” 옵션은 최고 관리자에게만 노출됩니다.</strong>
   <br><br>
 
-  <h4>- 판매 상태별 상품 검색</h4>
+  > <h4>판매 상태별 상품 검색</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/adminGoodsMapper.xml 중}}$
     <p>
@@ -379,7 +379,7 @@
   <strong>삭제 상품 목록 페이지</strong>에서 검색 하는 경우 saleActive 값이 <strong>goods_delete</strong>로 전달됩니다.
   <br><br>
 
-   <h4>- 가격, 등록 일자별 상품 검색</h4>
+   > <h4>가격, 등록 일자별 상품 검색</h4>
    <div>
     ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/adminGoodsMapper.xml 중}}$
     <p>
@@ -406,7 +406,7 @@
   ${listSort} : 내림자순, 오름차순 중 선택한 값
   <br><br>
 
-  <h4>- 목록 페이지의 페이지 번호에 따른 검색 상품수 범위 설정</h4>
+  > <h4>목록 페이지의 페이지 번호에 따른 검색 상품수 범위 설정</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsList.jsp 중}}$
     <p>
@@ -436,7 +436,7 @@
   <strong>*LIMIT의 범위는 0번부터 순번을 새기 시작하므로 20은 21번째 상품을 의미</strong>
   <br><br>
   
-  <h4>- 검색된 상품 정보 전달</h4>
+  > <h4>검색된 상품 정보 전달</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/java/org/admin/controller/AdminGoodsController.java 중}}$
     <p>
@@ -451,7 +451,7 @@
   <summary><h3>고객용 페이지 - 상품 구매</h3></summary>
   <br>
 
-  <h4>- 상품 정보 조회</h4>
+  > <h4>상품 정보 조회</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/java/org/sera/controller/GoodsController.java 중}}$
     <p>
@@ -475,7 +475,7 @@
   ValueObject GoodsVO 클래스형 변수 gvo에 값을 저장한 후 상품 페이지 view에 goodsInfo라는 이름으로 상품 정보를 전달합니다.
   <br><br><br>
 
-  <h4>- 상품 재고량에 따른 상품 구매량 제한</h4>
+  > <h4>상품 재고량에 따른 상품 구매량 제한</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/goodsOne.jsp}}$
     <p><img src="https://github.com/user-attachments/assets/c0f8ea4d-4d8c-4ac0-a342-44bca4df87b2" width="500px"></p>
@@ -487,12 +487,12 @@
   입력된 구매 수량의 값이 amount 값을 초과하는 경우 구매 수량의 값을 amount와 동일한 값으로 변경시키고 최대 구매 가능한 수량을 구매 수량 입력란 우측에 표기하여 재고량 이상으로 구매할 수 없도록 설정하였습니다.
   <br><br>
 
-  <h4>- 상품 구매 방식 선택</h4>
+  > <h4>상품 구매 방식 선택</h4>
   BUY IT NOW 버튼을 클릭하면 주문서 작성 페이지를 호출하고<br>
   ADD TO CART 버튼을 클릭하면 상세 페이지에 표시중인 상품 정보를 DB의 tbl_cart(장바구니) 테이블에 저장합니다.
   <br><br>
 
-  <h4>- 장바구니 담기</h4>
+  > <h4>장바구니 담기</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/java/org/sera/controller/GoodsController.java 중}}$
     <p>
@@ -503,7 +503,7 @@
   고객의 회원 id는 장바구니 테이블에 등록된 회원간의 장바구니 정보를 구별하는데 사용됩니다.
   <br><br>
 
-  <h4>- 장바구니에 이미 담긴 상품을 추가로 담기</h4>
+  > <h4>장바구니에 이미 담긴 상품을 추가로 담기</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/java/org/sera/controller/GoodsController.java 중}}$
     <p>
@@ -514,7 +514,7 @@
   구매 수량 값을 추가시킬 때 기존에 담긴 구매 수량과 추가로 담는 구매 수량의 합산 값이 상품의 재고량을 초과하는 경우 구매 수량 값을 재고량 값으로 UPDATE 시킵니다.
   <br><br>
 
-  <h4>- 장바구니에서 구매 수량 변경</h4>
+  > <h4>장바구니에서 구매 수량 변경</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/cart.jsp 중}}$
     <p>
@@ -530,7 +530,7 @@
   이 때 역시 상품의 재고량 이상의 구매 수량을 입력하는것은 불가능하도록 설정했습니다.
   <br><br>
 
-  <h4>- 장바구니에서 주문서 페이지 호출</h4>
+  > <h4>장바구니에서 주문서 페이지 호출</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/cart.jsp 중}}$
     <p>
@@ -543,7 +543,7 @@
   그와 동시에 DB의 tbl_member(회원) 테이블에서 회원의 마일리지 정보를 검색하여 회원 로그인 세션에 저장시킵니다.
   <br><br>
 
-  <h4>- 주문서 작성(구매 상품 목록)</h4>
+  > <h4>주문서 작성(구매 상품 목록)</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/orderForm.jsp 중}}$
     <p>
@@ -555,7 +555,7 @@
   url를 입력하여 주문서 페이지에 접속하는 등 올바르지 않은 경로로 주문서 페이지에 접근하여 표시할 상품 정보가 없는 경우 "상품 정보가 없습니다." 메세지기 출력 되도록 설정하였습니다. 
   <br><br>
 
-  <h4>- 주문서 작성(배송 정보 작성)</h4>
+  > <h4> 주문서 작성(배송 정보 작성)</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/orderForm.jsp 중}}$
     <p>
@@ -567,7 +567,7 @@
   회원 로그인이 되어 있는 경우 DB의 tbl_member(회원) 테이블에서 배송에 필요한 정보를 조회하여 자동으로 기입하도록 구현했습니다.
   <br><br>
 
-  <h4>- 주문서 작성(결제 정보 작성)</h4>
+  > <h4> 주문서 작성(결제 정보 작성)</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/orderForm.jsp 중}}$
     <p>
@@ -587,7 +587,7 @@
   보유 마일리지가 총 주문 금액 보다 큰 경우 마일리지 최대 금액을 입력하면 총 주문 금액으로 입력 값이 변경되도록 설정하였습니다.
   <br><br>
 
-  <h4>- 주문서 작성(총 결제 금액 확인)</h4>
+  > <h4> 주문서 작성(총 결제 금액 확인)</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/orderForm.jsp 중}}$
     <p><img src="https://github.com/user-attachments/assets/0fd06d88-3c41-4ce0-8d6a-e2ec5103eaf5" width="500px"></p>
@@ -597,7 +597,7 @@
   상품 목록에 표시된 금액을 모두 합산한 후 마일리지 사용이 이루어진 경우 사용액 만큼 차감하여 표시하도록 구현했습니다.
   <br><br>
   
-  <h4>- 주문서 작성(주문 결과)</h4>
+  > <h4> 주문서 작성(주문 결과)</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/orderForm.jsp 중}}$
     <p>
@@ -622,7 +622,7 @@
 <details>
   <summary><h3>주문 관리</h3></summary>
   <br>
-  <h4>- 구매 내역 조회 (고객)</h4>
+  > <h4> 구매 내역 조회 (고객)</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp 중}}$
     <p><img src="https://github.com/user-attachments/assets/71d18ef0-43b9-4cb2-84b8-e8f72205c65d" width="700px"> </p>
@@ -658,7 +658,7 @@
   <strong>구매확정</strong> : 이 단계에서는 주문 취소, 반품 모두 불가합니다.<br>
   <br><br>
 
-  <h4>- 구매 내역 조회 (관리자)</h4>
+  > <h4> 구매 내역 조회 (관리자)</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/order/orderList.jsp 중}}$
     <p>
@@ -676,7 +676,7 @@
   저장된 주문 정보들을 orderList라는 이름으로 Controller에서 주문 목록 페이지 view로 전달하여 화면에 출력합니다.
   <br><br><br>
 
-  <h4>- 주문자 유형 구별 표시 (관리자)</h4>
+  > <h4> 주문자 유형 구별 표시 (관리자)</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/order/orderList.jsp 중}}$
     <p>
@@ -692,7 +692,7 @@
   주문한 고객이 회원 로그인한 고객인지 비회원 고객인지의 여부를 구별하여 표기합니다.
   <br><br><br>
 
-   <h4>- 주문 상세 페이지 (관리자)</h4>
+   > <h4> 주문 상세 페이지 (관리자)</h4>
    주문 목록 페이지에서 상세정보 버튼을 클릭하면 해당 주문의 상세 정보를 열람할 수 있는 주문 상세 페이지를 호출합니다.
    <br><br> 
    <div>
@@ -724,7 +724,7 @@
   배송상태 변경은 주문 상품마다 개별적으로 수행하는 기능이기에 변경 요청이 전달될 때 마다 페이지가 재호출 되는건 관리자의 피로를 유발하기에 요청 처리는 Ajax를 통해 비동기로 처리하였습니다.
   <br><br>
 
-  <h4>- 주문 취소/반품 요청 (고객)</h4>
+  > <h4> 주문 취소/반품 요청 (고객)</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp 중}}$
     <p><img src="https://github.com/user-attachments/assets/385df9c9-7860-4475-8bae-12608a6d5438" width="1000px"></p>
@@ -741,7 +741,7 @@
   관리자용 페이지에서의 취소/반품 처리가 이루어지는 과정을 보여드리기 위해 고객용 페이지에서 취소와 반품 요청을 해보겠습니다.
   <br><br><br>
 
-  <h4>- 주문 취소/반품 요청 처리 (관리자)</h4>
+  > <h4> 주문 취소/반품 요청 처리 (관리자)</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/order/orderOneDetail.jsp 중}}$
     <p>
@@ -778,7 +778,7 @@
   <strong>requestType</strong> 값으로 어떤 상태로 변경할 것인지를 지정합니다.
   <br><br><br>
 
-  <h4>- 주문 취소/반품 요청 처리 결과</h4>
+  > <h4> 주문 취소/반품 요청 처리 결과</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/order/orderOneDetail.jsp 중}}$
     <p>
@@ -794,7 +794,7 @@
   관리자의 취소/반품 처리가 완료되면 관리자용 페이지와 고객용 페이지로 배송상태가 변경 되었음을 확인할 수 있습니다.
   <br><br><br>
 
-  <h4>- 구매확정 & 마일리지 적립 </h4>
+  > <h4> 구매확정 & 마일리지 적립 </h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp 중}}$
     <p>
@@ -842,7 +842,7 @@
   <br><br><br>
   
 
-  <h4>- 마일리지 적립 방식</h4>
+  > <h4> 마일리지 적립 방식</h4>
   <div>
     ${\textsf{\color{LightGray}Database의 마일리지 테이블 검색 내역}}$
     <p>
@@ -854,7 +854,7 @@
   따라서 마이페이지등에서 회원이 보유중인 마일리지 총액을 계산하게 되면 DB의 tbl_mileage에서 해당 회원의 id로 검색되는 모든 적립액을 합산한 수치로 계산하기 때문에 소진액 만큼 차감된 결과를 얻을 수 있습니다.
   <br><br><br>
 
-  <h4>- 상품 후기 작성 (고객)</h4>
+  > <h4> 상품 후기 작성 (고객)</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp 중}}$
     <p>
