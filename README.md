@@ -867,11 +867,17 @@
       <img src="https://github.com/user-attachments/assets/df7755f5-f9b9-4f50-ac6d-9b4f8e1bbad7" width="1000px">
     </p>
   </div>
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/goodsMapper.xml 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/a00aa7c6-b738-495e-9c7c-1f05f04d4208" width="1000px">
+    </p>
+  </div>
   마이페이지에서 후기작성 버튼을 클릭하면 상품 상세 페이지를 호출하여 상품 상세 페이지의 후기 작성란으로 이동하며<br>
   상품의 주문 이력이 있는 경우 후기를 작성하는게 가능하도록 설정 했습니다.
   <br><br>
-  후기 작성시 고객이 입력하게 되는 정보는 최소 1점 부터 최대 5점까지 입력할 수 있는 별점과<br>
-  상품에 대한 간략한 감상을 입력하는 상품평이 있습니다.
+  후기 작성시 고객이 입력하게 되는 정보는 최소 1점 부터 최대 5점까지 입력할 수 있는 별점과 상품에 대한 간략한 감상을 입력하는 상품평이 있으며<br>
+  자동으로 입력 되는 값으로 회원 id, 회원 닉네임, 주문번호, 상품 일련번호, 상품명, 작성일이 있습니다.
   <br><br>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/goodsOne.jsp 중}}$
@@ -884,12 +890,23 @@
   우측의 나머지 버튼의 값은 "bi bi-star"로 변경 되어 색이 채워지지 않은 별 모양이 됩니다.
   <br><br>
   후기 작성시 DB로 점수 값을 전달하기 위해 5개의 별점 버튼은 &lt;input type="radio"&gt; 태그의 value 속성으로 점수값을 가지고 있는데<br>
-  좌측부터 순서대로 1, 2, 3, 4, 5 값을 가지고 있습니다.<br>
+  좌측부터 각각 순서대로 1, 2, 3, 4, 5 값을 가지고 있습니다.<br>
   <br><br><br>
+
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/goodsOne.jsp 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/1a18aa0b-5199-4f2e-80d3-4767c255d3ae" width="1000px">
+    </p>
+    <p>
+      <img src="https://github.com/user-attachments/assets/2b752558-db7d-407d-ac9d-013e2d7df240" width="1000px">
+    </p>
+  </div>
+  후기를 등록하면 후기 목록에 입력한 상품평과 별점이 표시 되며 평균 별점에 입력한 별점이 반영되어 있음을 확인할 수 있습니다.
   
 </details>
 <br><br>
-//작성중
+
 
 ## 🖇️ <u>데이터베이스 설계</u>
 이전 직장에서 쇼핑몰을 관리해본 경험을 바탕으로 상품 관리에 필요한 요소를 분석하여 데이터베이스를 설계하였습니다.
