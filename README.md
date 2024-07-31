@@ -912,9 +912,8 @@
 여러 디스플레이 환경에 대응하여 구동 되도록 반응형 웹으로 제작하였습니다.
 <br><br>
 
-<div>
+<div><span style="color:indigo"> indigo </span>
   ${\textsf{\color{LightGray}데스크탑 환경에서의 메인 메뉴}}$
-  <p style="color:LightGray">데스크탑 환경에서의 메인 메뉴</p>
   <p>
     <img src="https://github.com/user-attachments/assets/1f4cdac0-b8dd-4446-9ec7-87c70b020de0" width="800px">
   </p>
