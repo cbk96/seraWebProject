@@ -835,10 +835,10 @@
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp 구매확정 전후 비교}}$
     <p>
       <img src="https://github.com/user-attachments/assets/a5eeaf02-1f32-4ddb-8baf-df826b25e6a6" width="500px">
-      <img src="https://github.com/user-attachments/assets/e3767233-6691-4388-8451-404f4d3ad96e" width="500px">
+      <img src="https://github.com/user-attachments/assets/61b678d5-48c8-4b21-8608-de9175f8f5d1" width="500px">
     </p>
   </div>
-  적립된 내역은 마이페이지에서 확인 가능합니다.
+  적립된 내역은 마이페이지에서 확인 가능합니다. 구매확정한 상품의 결제금액 64500의 0.05배인 3225이 마일리지로 적립되었음을 알 수 있습니다.
   <br><br><br>
   
 
@@ -846,11 +846,11 @@
   <div>
     ${\textsf{\color{LightGray}Database의 tbl_mileage 테이블 검색 내역}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/e9f8a96e-ad63-4547-ad98-1e7751456a1a" width="500px">
+      <img src="https://github.com/user-attachments/assets/474f9311-c683-4aa1-9703-bd8035514e3d" width="700px">
     </p>
   </div>
   <strong>적립</strong> : 마일리지 적립이 발생되게 되면 적립 금액은 DB의 tbl_mileage 테이블에 양수로 저장 됩니다.<br>
-  <strong>소진</strong> : 마일리지 소진이 발생되게 되면 사용된 액수가 DB의 tbl_mileage 테이블에 음수로 저장됩니다. 현재 검색 내역을 통해 admin 회원이 49500원의 마일리지를 소진했음을 알 수 있습니다.<br>
+  <strong>소진</strong> : 마일리지 소진이 발생되게 되면 사용된 액수가 DB의 tbl_mileage 테이블에 음수로 저장됩니다. 현재 검색 내역을 통해 admin 회원이 4300원의 마일리지를 소진했음을 알 수 있습니다.<br>
   따라서 마이페이지등에서 회원이 보유중인 마일리지 총액을 계산하게 되면 DB의 tbl_mileage에서 해당 회원의 id로 검색되는 모든 적립액을 합산한 수치로 계산하기 때문에 소진액 만큼 차감된 결과를 얻을 수 있습니다.
   <br><br><br>
   
