@@ -634,7 +634,7 @@
 
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp 중}}$
-    <p><img src="https://github.com/user-attachments/assets/c25e85ff-23ca-4ae8-abc5-8666c62d5a66" width="700px"></p>
+    <p><img src="https://github.com/user-attachments/assets/d66e4bf8-ce89-4a9d-a3e2-9ebcc7c86dde" width="700px"></p>
     <p><img src="https://github.com/user-attachments/assets/379c1cae-ac44-4791-83fc-2d7bcdc1326c" width="700px"></p>
   </div>
   회원의 주문 목록을 나열한 단락입니다.<br>
