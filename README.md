@@ -264,7 +264,7 @@
   LIKE 술어로 조회하기에 선택한 분류(컬럼)에서 입력한 문자열 값과 일부 일치하는 상품들이 검색됩니다.
   <br><br>
 
-  <h4>- 카테고리별 상품 검색</h4>
+  <h4>- 카테고리별 상품 검색</h4> 
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsList.jsp 중}}$
     <p>
