@@ -714,7 +714,7 @@
 
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/order/orderOneDetail.jsp 중}}$
-    <p><img src="https://github.com/user-attachments/assets/df4c4439-2d3d-4b51-827d-01d0d5dadd79" width="1000px"></p>
+    <p><img src="https://github.com/user-attachments/assets/836f52c5-1005-4042-a9e0-541540b84280" width="1000px"></p>
     <p><img src="https://github.com/user-attachments/assets/468504a1-b3b1-4f21-94c3-8d39be4b3b67" width="600px"></p>
   </div>
   
