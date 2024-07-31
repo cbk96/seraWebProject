@@ -131,7 +131,7 @@
   <summary><h3>관리자용 페이지 - 상품 등록</h3></summary>
   <br>
 
-  <h4>- 상품 정보 입력폼</h4>
+  > <h4>- 상품 정보 입력폼</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/goods/goodsRegist.jsp 중}}$
     <p>
