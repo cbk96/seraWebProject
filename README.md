@@ -954,8 +954,3 @@ PASSWORD : 1234
 이전 직장에서 쇼핑몰을 관리해본 경험을 바탕으로 상품 관리에 필요한 요소를 분석하여 데이터베이스를 설계하였습니다.
 <br>
 <div><img src="https://github.com/user-attachments/assets/cce31d5c-b44d-442d-8544-72f1d28314ba" width="1000px"></div>
-
-
-//작성중
-
-
