@@ -834,7 +834,7 @@
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp 구매확정 전후 비교}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/a5eeaf02-1f32-4ddb-8baf-df826b25e6a6" width="500px">
+      <img src="https://github.com/user-attachments/assets/c5da24c5-8894-40a2-aece-e2219d3268b4" width="500px">
       <img src="https://github.com/user-attachments/assets/61b678d5-48c8-4b21-8608-de9175f8f5d1" width="500px">
     </p>
   </div>
