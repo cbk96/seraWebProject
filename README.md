@@ -798,13 +798,13 @@
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp 중}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/64500ebf-3bea-4dbe-97bf-89a28877df92" width="1000px">
+      <img src="https://github.com/user-attachments/assets/6471464b-0381-4209-bdec-a6b4a252fc14" width="1000px">
     </p>
     <p>
       <img src="https://github.com/user-attachments/assets/1d34aa42-2f08-4df7-91ec-fac0b99abe74" width="500px">
     </p>
     <p>
-      <img src="https://github.com/user-attachments/assets/9e23f173-7455-4041-a44a-2f12a2213267" width="1000px">
+      <img src="https://github.com/user-attachments/assets/0b3cf97d-01a1-4ea7-9308-79cb30309eb0" width="1000px">
     </p>
     <p>
       <img src="https://github.com/user-attachments/assets/1af5a967-663e-4605-9ea4-373587c47137" width="700px">
