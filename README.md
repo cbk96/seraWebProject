@@ -662,7 +662,7 @@
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/order/orderList.jsp 중}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/39e5c41b-57b2-429c-a870-e615ac67a85f" width="700px">
+      <img src="https://github.com/user-attachments/assets/4f88c082-389e-4a53-96b3-bb41b4349799" width="700px">
     </p>
   </div>
   <div>
