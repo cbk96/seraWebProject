@@ -916,7 +916,7 @@ PASSWORD : 1234
 </details>
 <br><br><br>
 
-## 🖇️ <u>반응형 웹 구현</u>
+## 🖥️💻 <u>반응형 웹</u>
 <img src="https://github.com/user-attachments/assets/c8180825-0298-467c-b0e5-8669ebe5e8d4" width="1000px">
 여러 디스플레이 환경에 대응하여 구동 되도록 반응형 웹으로 제작하였습니다.
 <br><br><br>
