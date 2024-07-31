@@ -36,10 +36,12 @@ PASSWORD : 1234
 
 <details> 
   <summary><strong>1. 회원 계정 관리</strong></summary>
-  
+
+  ```
   - 회원가입
   - 로그인/로그아웃
   - 아이디 찾기/비밀번호 재설정
+```
 </details>
 
 <details>
