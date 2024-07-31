@@ -676,7 +676,7 @@
   저장된 주문 정보들을 orderList라는 이름으로 Controller에서 주문 목록 페이지 view로 전달하여 화면에 출력합니다.
   <br><br><br>
 
-  <h4>- 주문자 유형 구별 표시</h4>
+  <h4>- 주문자 유형 구별 표시 (관리자)</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/order/orderList.jsp 중}}$
     <p>
