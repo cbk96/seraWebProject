@@ -913,7 +913,7 @@
 <br><br>
 
 <div>
-  ${\textsf{\color{LightGray}데스크탑 환겨에서의 메인 메뉴}}$
+  ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/goodsOne.jsp 중}}$
   <p>
     <img src="https://github.com/user-attachments/assets/1f4cdac0-b8dd-4446-9ec7-87c70b020de0" width="800px">
   </p>
