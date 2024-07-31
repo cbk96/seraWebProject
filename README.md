@@ -698,7 +698,7 @@
    <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/admin/order/orderOneDetail.jsp 중}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/9f1f391a-4916-4e02-bbbd-620b7b93f8c9" width="1000px">
+      <img src="https://github.com/user-attachments/assets/8fd66c60-7210-4a4d-8ff3-39663e977cb0" width="1000px">
     </p>
   </div>
   주문 정보중 결제 정보를 확인할 수 있는 단락입니다. 마일리지 사용 내역이 있는 경우 마일리지 사용을 취소하고 마일리지를 복원시키는게 가능합니다.
