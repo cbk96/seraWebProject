@@ -790,7 +790,7 @@
   관리자의 취소/반품 처리가 완료되면 관리자용 페이지와 고객용 페이지로 배송상태가 변경 되었음을 확인할 수 있습니다.
   <br><br><br>
 
-  <h4>- 마일리지 적립 </h4>
+  <h4>- 구매확정 & 마일리지 적립 </h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp 중}}$
     <p>
@@ -813,12 +813,12 @@
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/java/org/sera/controller/GoodsController.java 중}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/8f7db1a6-0735-4ad9-8df0-99e373a9a04f" width="700px">
+      <img src="https://github.com/user-attachments/assets/d983f570-af54-4f9f-86a6-3a00b8a96507" width="700px">
     </p>
     <div>
     ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/goodsMapper.xml}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/d983f570-af54-4f9f-86a6-3a00b8a96507" width="500px">
+      <img src="https://github.com/user-attachments/assets/3ba8e514-5d2e-4000-a79f-dfa3f643e2ca" width="500px">
     </p>
   </div>
   </div>
