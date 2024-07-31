@@ -880,7 +880,8 @@
     </p>
   </div>
   별점은 &lt;input type="radio"&gt; 태그와 &lt;label&gt; 태그로 구현했으며 별 아이콘 모양은 Bootstrap Icons를 이용하여 구현했습니다.<br>
-  <br>
+  5개 별점 버튼의 &lt;input type="radio"&gt; 태그는 value 속성의 값으로 좌부터 순서대로 1, 2, 3, 4, 5 값을 가지고 있으며<br>
+  버튼을 클릭할 경우 클릭한 버튼과 그 버튼 좌측의 모든 버튼 내부에 있는 &lt;i&gt; 태그의 class 속성의 값이 "bi bi-star-fill"로 변경 되고 우측의 나머지 버튼의 값은 "bi bi-star"로 변경 됩니다.
   <br><br><br>
   
 </details>
