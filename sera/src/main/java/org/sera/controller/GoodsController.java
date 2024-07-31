@@ -504,7 +504,7 @@ public class GoodsController {
 					ovo.setName(name);
 					ovo.setOrder_status("결제완료");
 					ovo.setMember_order(memberOrderChk);
-					ovo.setSell_price(cvoItems.get(i).getSell_price() * cvoItems.get(i).getQuantity());
+					ovo.setSell_price(cvoItems.get(i).getSell_price());
 					ovo.setAll_price(all_price);
 					ovo.setDiscount_price(discount_price); 	
 					ovo.setQuantity(cvoItems.get(i).getQuantity());
@@ -556,7 +556,7 @@ public class GoodsController {
 				ovo.setName(name);
 				ovo.setOrder_status("결제완료");
 				ovo.setMember_order(memberOrderChk);
-				ovo.setSell_price(gvo.getSell_price() * quantity);
+				ovo.setSell_price(gvo.getSell_price());
 				ovo.setAll_price(gvo.getSell_price() * quantity);
 				ovo.setDiscount_price(discount_price);
 				ovo.setQuantity(quantity);
