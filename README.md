@@ -937,7 +937,7 @@ FE/BE 최병국
   후기를 등록하면 후기 목록에 입력한 상품평과 별점이 표시 되며 평균 별점에 입력한 별점이 반영되어 있음을 확인할 수 있습니다.
   
 </details>
-<br><br><br>
+<br><br>
 
 ## 🖥️💻 <u>반응형 웹</u>
 <img src="https://github.com/user-attachments/assets/c8180825-0298-467c-b0e5-8669ebe5e8d4" width="1000px">
