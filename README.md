@@ -727,7 +727,7 @@
   <h4>- 주문 취소/반품 요청 (고객)</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp 중}}$
-    <p><img src="https://github.com/user-attachments/assets/50189ac2-f29d-4c1b-84f6-d47d24e5dbd2" width="1000px"></p>
+    <p><img src="https://github.com/user-attachments/assets/385df9c9-7860-4475-8bae-12608a6d5438" width="1000px"></p>
     <p><img src="https://github.com/user-attachments/assets/3147b373-2bd7-4669-b941-08e5af2033d1" width="1000px"></p>
   </div>
   <strong>결제완료</strong> 상태의 주문은 주문 취소 요청하는 것이 가능합니다.<br>
