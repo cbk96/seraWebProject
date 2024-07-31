@@ -913,18 +913,11 @@
 <br><br>
 
 <div>
-<div>
-  ${\textsf{\color{LightGray}데스크탑 환경에서의 메인 메뉴}}$
+  ${\textsf{\color{LightGray}데스크탑 환경과 모바일 환경에서의 메인 메뉴}}$
   <p>
     <img src="https://github.com/user-attachments/assets/1f4cdac0-b8dd-4446-9ec7-87c70b020de0" width="800px">
-  </p>
-</div>
-<div>
-  ${\textsf{\color{LightGray}모바일 환경에서의 메인 메뉴}}$
-  <p>
     <img src="https://github.com/user-attachments/assets/a749a615-dc2a-4cc0-9173-b125f4173c8e" width="300px">
   </p>
-</div>
 </div>
 <br><br><br>
 
