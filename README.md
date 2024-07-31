@@ -19,6 +19,7 @@ PASSWORD : 1234
 <br><br>
 
 ## 🖥️ <u>개발 환경</u>
+```
 *  JDK v1.8.0_341
 *  Spring Framework 4.3.8.RELEASE
 *  STS 3.9.12.RELEASE
@@ -27,6 +28,7 @@ PASSWORD : 1234
 *  MariaDB v10.4.33
 *  Toad for MySQL 8.0 Freeware
 <br><br>
+```
 
 ## 🗃️ <u>구현 기능</u>
 ### 🛒 고객용 페이지
