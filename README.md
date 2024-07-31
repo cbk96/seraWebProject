@@ -7,6 +7,7 @@
 ID : admin
 PASSWORD : 1234
 ```
+<br><br>
 
 ## 📝 <u>프로젝트 주제 선정 이유</u>
 쇼핑몰은 상품이 등록되고 주문이 발생하는 과정에 이르기까지 다양한 CRUD 처리를 거치는 웹 애플리케이션이며<br>
@@ -27,8 +28,8 @@ PASSWORD : 1234
 *  MyBatis v3.4.1
 *  MariaDB v10.4.33
 *  Toad for MySQL 8.0 Freeware
-<br><br>
 ```
+<br><br>
 
 ## 🗃️ <u>구현 기능</u>
 ### 🛒 고객용 페이지
