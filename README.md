@@ -813,17 +813,19 @@
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/java/org/sera/controller/GoodsController.java 중}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/d983f570-af54-4f9f-86a6-3a00b8a96507" width="700px">
+      <img src="https://github.com/user-attachments/assets/3d994e67-50a6-42c5-8e7d-a28f2d3c1813" width="700px">
     </p>
     <div>
     ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/goodsMapper.xml}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/3ba8e514-5d2e-4000-a79f-dfa3f643e2ca" width="500px">
+      <img src="https://github.com/user-attachments/assets/2294bb78-c587-4fd1-8878-2eb502b4f864" width="500px">
     </p>
   </div>
   </div>
   Controller로 구매확정 요청이 전달되면 함께 전달된 주문 정보를 통해 배송상태를 구매확정으로 변경하고 구매확정으로 성공적으로 변경된 경우에 한해 마일리지를 적립시킵니다.<br>
-  
+  <br><br>
+  마일리지 적립은 DB의 tbl_mileage(마일리지 적립 내역) 테이블에 적립액수, 주문번호, 회원 id, 적립일자를 기록하는 형태로 이루어지게 되는데<br>
+  적립액은 구매 금액의 0.05배의 값을 저장합니다.
   <br><br><br>
   
   
