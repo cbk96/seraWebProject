@@ -1,7 +1,7 @@
 # <u>Sera Online Shopping Mall</u>
 스프링 프레임워크와 MariaDB로 구현한 포트폴리오용 뷰티 상품 온라인 쇼핑몰 프로젝트입니다.
 <br><br>
-> ### 배포 URL (http://3.39.103.6:8080/) 
+> ### [배포 URL](http://3.39.103.6:8080/) 
 ```
 테스트 계정
 ID : admin
