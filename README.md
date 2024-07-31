@@ -13,7 +13,7 @@ PASSWORD : 1234
 ID : admin
 PASSWORD : 1234
 ```
-<p><img src="https://github.com/user-attachments/assets/7fb6760c-e2a2-47c2-bf42-51df666f319d" width="200px"></p>
+<p><img src="https://github.com/user-attachments/assets/7fb6760c-e2a2-47c2-bf42-51df666f319d" width="400px"></p>
 고객용 페이지에서 테스트 계정으로 접속하면 페이지 우측 상단 메뉴에 관리자 페이지를 호출하는 버튼이 표시됩니다. 
 <br>
 
