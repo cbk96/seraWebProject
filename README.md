@@ -834,7 +834,7 @@
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp 구매확정 전후 비교}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/c5da24c5-8894-40a2-aece-e2219d3268b4" width="500px">
+      <img src="https://github.com/user-attachments/assets/64fd4897-c59d-46fc-8cab-55dbd1cf68b5" width="500px">
       <img src="https://github.com/user-attachments/assets/61b678d5-48c8-4b21-8608-de9175f8f5d1" width="500px">
     </p>
   </div>
@@ -844,7 +844,7 @@
 
   <h4>- 마일리지 적립 방식</h4>
   <div>
-    ${\textsf{\color{LightGray}Database의 tbl_mileage 테이블 검색 내역}}$
+    ${\textsf{\color{LightGray}Database의 마일리지 테이블 검색 내역}}$
     <p>
       <img src="https://github.com/user-attachments/assets/474f9311-c683-4aa1-9703-bd8035514e3d" width="700px">
     </p>
@@ -853,7 +853,14 @@
   <strong>소진</strong> : 마일리지 소진이 발생되게 되면 사용된 액수가 DB의 tbl_mileage 테이블에 음수로 저장됩니다. 현재 검색 내역을 통해 admin 회원이 4300원의 마일리지를 소진했음을 알 수 있습니다.<br>
   따라서 마이페이지등에서 회원이 보유중인 마일리지 총액을 계산하게 되면 DB의 tbl_mileage에서 해당 회원의 id로 검색되는 모든 적립액을 합산한 수치로 계산하기 때문에 소진액 만큼 차감된 결과를 얻을 수 있습니다.
   <br><br><br>
-  
+
+  <h4>- 상품 후기 작성 (고객)</h4>
+  <div>
+    ${\textsf{\color{LightGray}}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/6471464b-0381-4209-bdec-a6b4a252fc14" width="1000px">
+    </p>
+  </div>
   
 </details>
 <br><br>
