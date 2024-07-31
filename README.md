@@ -856,11 +856,32 @@
 
   <h4>- 상품 후기 작성 (고객)</h4>
   <div>
-    ${\textsf{\color{LightGray}}}$
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp 중}}$
     <p>
       <img src="https://github.com/user-attachments/assets/6471464b-0381-4209-bdec-a6b4a252fc14" width="1000px">
     </p>
   </div>
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/goodsOne.jsp 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/df7755f5-f9b9-4f50-ac6d-9b4f8e1bbad7" width="1000px">
+    </p>
+  </div>
+  마이페이지에서 후기작성 버튼을 클릭하면 상품 상세 페이지를 호출하여 상품 상세 페이지의 후기 작성란으로 이동하며<br>
+  상품의 주문 이력이 있는 경우 후기를 작성하는게 가능하도록 설정 했습니다.
+  <br><br>
+  후기 작성시 고객이 입력하게 되는 정보는 최소 1점 부터 최대 5점까지 입력할 수 있는 별점과<br>
+  상품에 대한 간략한 감상을 입력하는 상품평이 있습니다.
+  <br><br>
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/goodsOne.jsp 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/d7ace4f0-13d0-46a7-8ead-ccfe4e1e8224" width="500px">
+    </p>
+  </div>
+  별점은 &lt;input type="radio"&gt; 태그와 &lt;label&gt; 태그로 구현했으며 별 아이콘 모양은 Bootstrap Icons를 이용하여 구현했습니다.<br>
+  <br>
+  <br><br><br>
   
 </details>
 <br><br>
