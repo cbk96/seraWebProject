@@ -646,7 +646,7 @@
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp 중}}$
     <p>
-      <img src="https://github.com/user-attachments/assets/328967eb-1df2-4129-9677-1999cdf1813b" width="500px">
+      <img src="https://github.com/user-attachments/assets/da6ca72f-1a0f-4ac2-9360-d986f52b7511" width="500px">
     </p>
   </div>
   배송상태에 따라 주문에 대한 취소/반품 요청을 하거나 구매 확정을 진행하고 후기를 작성하는게 가능합니다.
