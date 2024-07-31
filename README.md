@@ -788,8 +788,23 @@
     </p>
   </div>
   관리자의 취소/반품 처리가 완료되면 관리자용 페이지와 고객용 페이지로 배송상태가 변경 되었음을 확인할 수 있습니다.
-  <br><br>
+  <br><br><br>
 
+  <h4>- 마일리지 적립</h4>
+  <div>
+    ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp 중}}$
+    <p>
+      <img src="https://github.com/user-attachments/assets/64500ebf-3bea-4dbe-97bf-89a28877df92" width="1000px">
+    </p>
+    <p>
+      <img src="https://github.com/user-attachments/assets/1d34aa42-2f08-4df7-91ec-fac0b99abe74" width="500px">
+    </p>
+    <p>
+      <img src="https://github.com/user-attachments/assets/9e23f173-7455-4041-a44a-2f12a2213267" width="1000px">
+    </p>
+  </div>
+  배송 상태가 배송완료인 주문건은 고객용 마이페이지에서 구매 확정 처리가 가능하며 구매 확정처리되면 후기작성 버튼이 표시됩니다.<br>
+  <br><br>
   
 </details>
 <br><br>
