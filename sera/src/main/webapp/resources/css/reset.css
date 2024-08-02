@@ -300,8 +300,9 @@ input[type="radio"]:checked + label:not(.radio-visible label, .star_line_input>l
 	.inputChkContainer{padding-left:10px;}
 	
 	/*==============[button]==============*/
-	.btn:not(.btn-mini-square){padding:15px;}
+	.btn:not(.btn-mini-square, .btn-logout){padding:8px;}
 	.btn-page{padding:5px;}
+	.btn-logout(padding:15px;)
 	
 	/*==============[banner]===============*/
 	.banner-index{height:600px;}
@@ -342,8 +343,9 @@ input[type="radio"]:checked + label:not(.radio-visible label, .star_line_input>l
 	.inputChkContainer{padding-left:10px;}
 	
 	/*==============[button]==============*/
-	.btn:not(.btn-mini-square){padding:15px;}
+	.btn:not(.btn-mini-square, .btn-logout){padding:8px;}
 	.btn-page{padding:5px;}
+	.btn-logout(padding:15px;)
 	
 	/*==============[banner]===============*/
 	.banner-index{height:600px;}
