@@ -931,6 +931,7 @@ FE/BE 최병국
   후기 작성시 고객이 입력하게 되는 정보는 최소 1점 부터 최대 5점까지 입력할 수 있는 별점과 상품에 대한 간략한 감상을 입력하는 상품평이 있으며<br>
   자동으로 입력 되는 값으로 회원 id, 회원 닉네임, 주문번호, 상품 일련번호, 상품명, 작성일이 있습니다.
   <br><br>
+  
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/goods/goodsOne.jsp 중}}$
     <p>
