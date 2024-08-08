@@ -34,7 +34,7 @@ FE/BE 최병국
 
 ## 🖥️ <u>개발 환경</u>
 ```
-*  JDK v1.8.0_341
+*  JDK v1.8.0_422
 *  Spring Framework 4.3.8.RELEASE
 *  STS 3.9.12.RELEASE
 *  Apache Tomcat v8.5.99
