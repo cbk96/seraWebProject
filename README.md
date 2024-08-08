@@ -951,7 +951,7 @@ FE/BE 최병국
       <img src="https://github.com/user-attachments/assets/1a18aa0b-5199-4f2e-80d3-4767c255d3ae" width="1000px">
     </p>
     <p>
-      <img src="https://github.com/user-attachments/assets/2b752558-db7d-407d-ac9d-013e2d7df240" width="1000px">
+      <img src="https://github.com/user-attachments/assets/2b752558-db7d-407d-ac9d-013e2d7df240" width="700px">
     </p>
   </div>
   후기를 등록하면 후기 목록에 입력한 상품평과 별점이 표시 되며 평균 별점에 입력한 별점이 반영되어 있음을 확인할 수 있습니다.
