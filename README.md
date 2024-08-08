@@ -904,10 +904,10 @@ FE/BE 최병국
  </details>
 
 <details>
-  <summary><h3>상품 후기 작성 (고객)</h3></summary>
+  <summary><h3>고객용 페이지 - 상품 후기 작성</h3></summary>
   <br>
 
- > <h4> 상품 후기 작성 (고객)</h4>
+ > <h4>상품 후기 작성</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp 중}}$
     <p>
