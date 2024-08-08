@@ -663,6 +663,7 @@ FE/BE 최병국
 <details>
   <summary><h3>주문 관리</h3></summary>
   <br>
+  
   > <h4> 구매 내역 조회 (고객)</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/webapp/WEB-INF/views/member/mypage.jsp 중}}$
