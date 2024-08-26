@@ -978,3 +978,9 @@ FE/BE 최병국
 이전 직장에서 쇼핑몰을 관리해본 경험을 바탕으로 상품 관리에 필요한 요소를 분석하여 데이터베이스를 설계하였습니다.
 <br>
 <div><img src="https://github.com/user-attachments/assets/cce31d5c-b44d-442d-8544-72f1d28314ba" width="1000px"></div>
+
+## 🏭 <u>RPA를 통한 상품 자료 수집</u>
+200개 가량의 상품 정보를 효율적으로 수집하기 위해 Brity RPA를 이용하여 상품 이름, 가격, 상품 분류와 같은 정보를 수집하여 프로젝트에 활용하였습니다.
+
+[![Video Label](http://img.youtube.com/vi/9uJnw8eK7ow/0.jpg)](https://youtu.be/9uJnw8eK7ow)
+
