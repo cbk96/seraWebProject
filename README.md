@@ -357,7 +357,7 @@ FE/BE 최병국
   카테고리 항목에서 &lt;select&gt; 태그 내의 선택값은 JSTL Core의 &lt;if&gt; 태그를 사용하여 관리자의 부서에 해당되는 카테고리만 표기 되도록 구현했습니다.
   <br><br><br>
 
-  > <h4>관리자 권한에 따라 검색되는 상품 필터링</h4>
+  > <h4>관리자 권한에 맞춰 상품 검색 결과 필터링</h4>
   <div>
     ${\textsf{\color{LightGray}/sera/src/main/resources/mappers/adminGoodsMapper.xml 중}}$
     <p>
